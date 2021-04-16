@@ -1,0 +1,53 @@
+.cartIcon {
+	display: none;
+}
+.minicartIconContainer {
+	height: 25px;
+	width: 5px;
+}
+.minicartContainer :global(.vtex-button) {
+	background-image: url("https://bravtexgrocerystore.vtexassets.com/arquivos/shopping-cart.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 28px;
+	height: 28px;
+}
+.openIconContainer {
+	padding: 12px 0;
+}
+.minicartQuantityBadgeDefault {
+  color: #FFF7F2;
+  background: #F71963;
+  right: 4px;
+  top: -10px;
+  width: 12px;
+  height: 12px;
+  font-size: 0.65rem !important;
+}
+@media only screen and (min-width: 641px) {
+	.openIconContainer::after {
+		content: 'Meu Carrinho';
+		max-width: 50px;
+		display: inline-flex;
+		vertical-align: middle;
+		padding-left: 8px;
+		font-size: 12px;
+		font-weight: bold;
+		color: #4d4a48;
+  }
+  .minicartWrapperContainer {
+    width: 97px !important;
+  }
+}
+@media only screen and (max-width: 640px) {
+	.openIconContainer {
+		margin: 0;
+	}
+	.minicartContainer :global(.vtex-button) {
+		margin: 0 11px;
+	}
+}
+.minicartCheckoutButton {
+	padding-bottom: 75px;
+}
