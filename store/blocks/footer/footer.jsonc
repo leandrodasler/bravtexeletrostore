@@ -147,7 +147,7 @@
 	},
 	"rich-text#footer": {
 		"props": {
-			"text": "VTEX Atacado © - 2021 - Todos os direitos reservados.",
+			"text": "VTEX Eletro © - 2021 - Todos os direitos reservados.",
 			"blockClass": "footer-copyright"
 		},
 		"title": "Footer copyright text"

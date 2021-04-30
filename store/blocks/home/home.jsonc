@@ -21,12 +21,12 @@
 			"height": 328,
 			"images": [
 				{
-					"image": "https://bravtexgrocerystore.vtexassets.com/arquivos/Azeite-Desktop1.png",
-					"mobileImage": "https://bravtexgrocerystore.vtexassets.com/arquivos/Azeite-Mobile1.png"
+					"image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/63a5955d-de4a-4fde-adfe-4bd79929995a___6115bf75cfc651a7c0d7d6a063c797c6.png",
+					"mobileImage": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/b0f43b38-9579-4624-9627-aede40ffc27c___035e372b92eeeedbce8e74ed94fd8656.png"
 				},
 				{
-					"image": "https://bravtexgrocerystore.vtexassets.com/arquivos/Margarina-Desktop1.png",
-					"mobileImage": "https://bravtexgrocerystore.vtexassets.com/arquivos/Margarina-Mobile1.png"
+					"image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/9e8de3bc-307c-4035-8ac6-1877252f1c41___a66fdedf26a71701a54783b2c6d62b3e.png",
+					"mobileImage": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/66f95bfe-cc48-4684-9fb8-358a7f258c36___fd4d04eb76313f6e848f62e5e9548ae0.png"
 				}
 			]
 		},
@@ -78,7 +78,7 @@
 	},
 	"image#shelf-banner-desktop": {
 		"props": {
-			"src": "https://bravtexgrocerystore.vtexassets.com/arquivos/Cart%C3%A3o-Desktop.png",
+			"src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/48d139a3-c20a-4eb0-aa94-8fe4a9369e78___474ca52ef2a1572f848f2c7004d3ee9c.png",
 			"blockClass": "banner-sales",
 			"link": "/"
 		},
