@@ -222,7 +222,6 @@
 			"trigger": "load"
 		},
 		"children": [
-			"current-address-component#localization-mobile",
 		  	"modal-layout#localization-mobile"
 		]
 	  },
