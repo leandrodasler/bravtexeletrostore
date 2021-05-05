@@ -64,26 +64,8 @@
 	"flex-layout.row#localization": {
 		"props": {
 			"blockClass": "localization-row"
-		},
-		"children": ["modal-trigger#location"]
-	},
-	"modal-trigger#location": {
-		"children": [
-		  	"modal-layout#localization"
-		]
-	  },
-	"current-address-component#localization": {
-	},
-	  "modal-layout#localization": {
-		"children": [
-		  "current-address-modal"
-		]
-	  },
-	  "modal-actions.close": {
-		  "props": {
-			  "label": "Fechar"
-		  }
-	  }
+		}
+	}
 	// "menu-item#location": {
 	//   "props": {
 	//     "id": "menu-item-category-home",

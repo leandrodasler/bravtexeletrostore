@@ -214,25 +214,9 @@
 		"props": {
 			"blockClass": "row-localization-mobile",
 			"fullWidth": true
-		},
-		"children": ["modal-trigger#location-mobile"]
+		}
 	},
-	"modal-trigger#location-mobile": {
-		"props": {
-			"trigger": "load"
-		},
-		"children": [
-		  	"modal-layout#localization-mobile"
-		]
-	  },
-	"current-address-component#localization-mobile": {
-	},
-	  "modal-layout#localization-mobile": {
-		"children": [
-		  "current-address-modal"
-		]
-	  },
-	  "current-address-modal": {},
+
 
 	"flex-layout.row#icons-mobile": {
 		"props": {
