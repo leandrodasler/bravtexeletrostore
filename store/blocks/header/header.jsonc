@@ -60,6 +60,7 @@
 		"children": [
 			"flex-layout.col#logo-desktop",
 			"flex-layout.col#spacer",
+			"search-bar#biggy",
 			"flex-layout.col#spacer",
 			"flex-layout.row#icons-desktop"
 		]
@@ -97,8 +98,7 @@
 				"type": "internal",
 				"href": "/wishlist",
 				"noFollow": false,
-				"tagTitle": "minhas listas",
-				"text": "Minhas Listas"
+				"tagTitle": "minhas listas"
 			},
 			"iconProps": {
 				"id": "list-icon",
@@ -120,7 +120,7 @@
 			"preventVerticalStretch": true,
 			"fullWidth": true
 		},
-		"children": ["flex-layout.col#category-menu", "search-bar#biggy"]
+		"children": ["flex-layout.col#category-menu"]
 	},
 
 	"flex-layout.col#category-menu": {
@@ -133,7 +133,7 @@
 		"props": {
 			"title": "Logo",
 			"href": "/",
-			"url": "https://bravtexgrocerystore.vtexassets.com/arquivos/VTEX-grocery.png",
+			"url": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/8d8038d0-71f9-4644-a4f2-264ccc1ddcea___38b62be4b5e8e1490a0d50c50fc6a1a8.png",
 			"width": "150"
 		}
 	},
@@ -214,15 +214,29 @@
 		"props": {
 			"blockClass": "row-localization-mobile",
 			"fullWidth": true
-		}
+		},
+		"children": ["modal-trigger#location-mobile"]
 	},
-
+	"modal-trigger#location-mobile": {
+		"children": [
+			"current-address-component#localization-mobile",
+		  	"modal-layout#localization-mobile"
+		]
+	  },
+	"current-address-component#localization-mobile": {
+	},
+	  "modal-layout#localization-mobile": {
+		"children": [
+		  "current-address-modal"
+		]
+	  },
+	  "current-address-modal": {},
 
 	"flex-layout.row#icons-mobile": {
 		"props": {
 			"blockClass": "icons-header"
 		},
-		"children": ["login", "menu-item#wish-list-mobile", "minicart.v2"]
+		"children": [ "minicart.v2", "menu-item#wish-list-mobile", "login"]
 	},
 	"menu-item#wish-list-mobile": {
 		"props": {
@@ -240,7 +254,7 @@
 			"iconProps": {
 				"id": "list-icon",
 				"size": 32,
-				"viewBox": "0 0 32 32",
+				"viewBox": "-3 -3 24 24",
 				"activeClassName": "wishlist-active-heart",
 				"mutedClassName": "wishlist-muted-heart"
 			},
@@ -260,7 +274,7 @@
 		"props": {
 			"title": "Logo",
 			"href": "/",
-			"url": "https://bravtexgrocerystore.vtexassets.com/arquivos/logo-grocery.png",
+			"url": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/8d8038d0-71f9-4644-a4f2-264ccc1ddcea___38b62be4b5e8e1490a0d50c50fc6a1a8.png",
 			"width": "58"
 		}
 	}
