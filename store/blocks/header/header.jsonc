@@ -69,12 +69,12 @@
 		"props": {
 			"blockClass": "icons-header"
 		},
-		"children": ["minicart.v2","menu-item#wish-list", "login"]
+		"children": ["menu-item#wish-list", "login", "minicart.v2"]
 	},
 	"login": {
 		"props": {
-			"emailAndPasswordTitle": "entrar com e-mail e senha",
-			"accessCodeTitle": "receber código de acesso por e-mail",
+			"emailAndPasswordTitle": "Entrar com e-mail e senha",
+			"accessCodeTitle": "Receber código de acesso por e-mail",
 			"emailPlaceholder": "e-mail",
 			"passwordPlaceholder": "senha",
 			"showPasswordVerificationIntoTooltip": true,
@@ -83,8 +83,8 @@
 	},
 	"login#mobile": {
 		"props": {
-			"emailAndPasswordTitle": "entrar com e-mail e senha",
-			"accessCodeTitle": "receber código de acesso por e-mail",
+			"emailAndPasswordTitle": "Entrar com e-mail e senha",
+			"accessCodeTitle": "Receber código de acesso por e-mail",
 			"emailPlaceholder": "e-mail",
 			"passwordPlaceholder": "senha",
 			"showPasswordVerificationIntoTooltip": true,
@@ -178,7 +178,7 @@
 		"props": {
 			"blockClass": "icons-header"
 		},
-		"children": ["menu-item#wish-list", "minicart.v2", "login#mobile"]
+		"children": ["menu-item#wish-list", "login#mobile", "minicart.v2"]
 	},
 	"sticky-layout#1-mobile": {
 		"props": {
@@ -246,7 +246,7 @@
 		"props": {
 			"blockClass": "icons-header"
 		},
-		"children": [ "minicart.v2", "menu-item#wish-list-mobile", "login#mobile"]
+		"children": ["menu-item#wish-list", "login#mobile", "minicart.v2"]
 	},
 	"menu-item#wish-list-mobile": {
 		"props": {
@@ -264,7 +264,7 @@
 			"iconProps": {
 				"id": "list-icon",
 				"size": 32,
-				"viewBox": "-3 -3 24 24",
+				"viewBox": "-3 -3 22 20",
 				"activeClassName": "wishlist-active-heart",
 				"mutedClassName": "wishlist-muted-heart"
 			},
