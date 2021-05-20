@@ -9,19 +9,28 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.1.0] - 2021-05-20
 
-## [1.0.0] - 2021-05-20
+### Added
 
-## [0.3.5] - 2021-05-04
+- New checkout and cart UI.
+- New search bar UI.
+- Location availability to peerDependencies.
+- Disclosure menu containing prodfuct description, technical specifications and ratings to PDP page.
+- Seller info to PDP page.
+- Product pickup and shipping price simulator to PDP page.
+- Seller info to mobile header page.
+- SKU selector style.
 
-## [0.3.4] - 2021-05-04
+### Changed
 
-## [0.3.3] - 2021-05-04
+- Footer and Header UI accorging to new UX
+- 404 page layout.
+- Category menu z-index
+- Minicart position in header.
 
-## [0.3.2] - 2021-05-04
+### Removed
 
-## [0.3.1] - 2021-05-04
-
-## [0.3.0] - 2021-05-04
+- Old logo at 404 page.
+- Fixed-prices component.
 
 ## [0.2.1] - 2021-04-19
 
