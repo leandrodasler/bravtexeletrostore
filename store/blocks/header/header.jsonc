@@ -153,8 +153,7 @@
 			"flex-layout.row#1-mobile",
 			"sticky-layout#1-mobile",
 			"sticky-layout#1-tablet",
-			"flex-layout.row#3-mobile",
-			"flex-layout.row#4-mobile"
+			"flex-layout.row#3-mobile"
 		],
 		"title": "Header - Mobile"
 	},
@@ -220,27 +219,6 @@
 		},
 		"children": ["search-bar#biggy"]
 	},
-	"flex-layout.row#4-mobile": {
-		"props": {
-			"blockClass": "row-localization-mobile",
-			"fullWidth": true
-		},
-		"children": ["modal-trigger#location-mobile"]
-	},
-	"modal-trigger#location-mobile": {
-		"children": [
-			"current-address-component#localization-mobile",
-		  	"modal-layout#localization-mobile"
-		]
-	  },
-	"current-address-component#localization-mobile": {
-	},
-	  "modal-layout#localization-mobile": {
-		"children": [
-		  "current-address-modal"
-		]
-	  },
-	  "current-address-modal": {},
 
 	"flex-layout.row#icons-mobile": {
 		"props": {
