@@ -746,6 +746,15 @@
 
 }
 
+:global(.vtex-seller-selector-0-x-linkSellerContainer) {
+	margin-right: 1rem;
+}
+
+:global(.vtex-seller-selector-0-x-linkSeller) {
+	color: #F71963;
+	text-decoration: none;
+}
+
 :global(.vtex-flex-layout-0-x-flexCol--flex-dropdown-pdp) .productDescriptionTitle {
 	display: none;
 }
