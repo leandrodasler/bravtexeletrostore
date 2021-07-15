@@ -163,8 +163,7 @@
 	},
 	"flex-layout.row#price-and-add-to-cart": {
 		"props": {
-			"blockClass": "price-and-add-to-cart",
-			"horizontalAlign": "center"
+			"blockClass": "price-and-add-to-cart"
 		},
 		"children": ["flex-layout.row#selling-and-list-price-new",
 			"flex-layout.row#quantity-buy-button-custom-component"]
