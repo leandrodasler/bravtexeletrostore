@@ -85,7 +85,7 @@
 }
 :global(.vtex-flex-layout-0-x-flexColChild--product-info-content) .sellingPriceValue {
 	color: #F71963;
-	font-size: 36px;
+	font-size: 30px !important;
 	font-weight: 800;
 	line-height: 52px;
 }
