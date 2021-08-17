@@ -207,6 +207,9 @@
 	color: #F71963;
 	font-weight: 800;
 }
+.heading--pdp-delivery-text-title {
+  margin-top: 64px;
+}
 .headingLevel2--title-shelf-content {
 	margin: 16px 0;
 }
