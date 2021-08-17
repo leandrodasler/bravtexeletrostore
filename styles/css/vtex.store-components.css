@@ -88,7 +88,7 @@
 	max-width: 616px;
 }
 :global(.vtex-flex-layout-0-x-flexCol--product-images-container) .productImagesContainer .productImagesGallerySlide {
-	/* width: 490px !important; */
+	min-width: 470px;
 }
 :global(.vtex-flex-layout-0-x-flexCol--product-images-container) .productImagesContainer .carouselGaleryThumbs {
 	width: 104px;
