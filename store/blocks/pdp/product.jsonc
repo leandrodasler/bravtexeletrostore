@@ -179,7 +179,8 @@
 		"props": {
 			"blockClass": "quantity-and-buy-btn-container"
 		},
-		"children": ["add-to-cart-quantity-stepper#pdp"]
+		// "children": ["add-to-cart-quantity-stepper#pdp"]
+		"children": ["add-to-cart-button#pdp"]
 	},
 	"add-to-cart-quantity-stepper#pdp": {
 		"blocks": ["add-to-cart-button#pdp"]
