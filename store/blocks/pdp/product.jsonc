@@ -155,6 +155,7 @@
 			"seller-text",
 			"flex-layout.row#price-and-add-to-cart",
 			"link-seller",
+			"availability-subscriber",
 			"rich-text#texto-entrega",
 			"rich-text#texto-cep",
 			"flex-layout.col#shipping-product",
