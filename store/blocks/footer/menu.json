@@ -165,7 +165,7 @@
 	"rich-text#sac": {
 		"props": {
 			"blockClass": "footer-menu-items",
-			"text": "SAC: (21) 3174-5400\nE-mail: grocery.store@vtex.com.br\nDe segunda a sexta das 08h às 22h.\nAos sábados das 08h às 20h."
+			"text": "SAC: (21) 3174-5400\nE-mail: eletro.store@vtex.com.br\nDe segunda a sexta das 08h às 22h.\nAos sábados das 08h às 20h."
 		},
 		"title": "Footer menu item"
 	},
@@ -200,7 +200,7 @@
 	},
 	"image#instagram": {
 		"props": {
-			"src": "https://bravtexgrocerystore.vtexassets.com/arquivos/white-instagram.png",
+			"src": "https://bravtexgrocerystore.vtexassets.com/arquivos/instagram-circle.png",
 			"maxHeight": 30,
 			"maxWidth": 30,
 			"blockClass": "instagram-footer"

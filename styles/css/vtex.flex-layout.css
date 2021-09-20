@@ -7,10 +7,10 @@
 	background-color: #ffffff;
 }
 .flexRow--menu-link {
-	background-color: #F71963;
+	background-color: #003087;
 }
 .flexRowContent--menu-link {
-	background-color: #F71963;
+	background-color: #003087;
 }
 .flexRowContent--menu-link {
 	max-width: 1440px;
@@ -179,8 +179,8 @@
 .flexRow--menu-row,
 .flexRow--payment-methods,
 .flexRow--credits     {
-	background: #142032;
-	color: #FFFFFF !important;
+	background: #E7E9EE;
+	color: #4A596B !important;
 }
 
 .flexRow--payment-methods .stretchChildrenWidth:first-child {
@@ -258,7 +258,7 @@
 .flexRowContent--contact :global(.vtex-input__label),
 .flexRowContent--contact :global(.vtex-textarea__label) {
 	font-size: 1rem;
-	color: #F71963;
+	color: #003087;
 }
 .flexRowContent--contact :global(.vtex-input),
 .flexRowContent--contact :global(.vtex-textarea) {
@@ -280,7 +280,7 @@
 	white-space: nowrap;
 }
 .flexColChild--product-info-content .flexRow--buy-btn-container :global(.vtex-button):hover {
-	background-color: #F71963;
+	background-color: #003087;
 }
 .flexCol--product-info-content {
 	padding-left: 48px;
@@ -297,8 +297,8 @@
 	justify-content: none;
 }
 .flexRow--add-to-cart-btn-container-shelf :global(.vtex-button) {
-	background: #142032;
-	border: 1px solid #142032;
+	background: #003087;
+	border: 1px solid #003087;
 	box-sizing: border-box;
 	border-radius: 4px;
 	padding: 8px 24px 8px 20px;
@@ -321,7 +321,7 @@
   max-width: none;
 }
 .flexRow--quantity-and-buy-btn-container :global(.vtex-button):hover {
-	background-color: #F71963;
+	background-color: #003087;
 }
 .flexRowContent--product-payment-methods-and-shipping-container {
 	align-items: center;
@@ -566,7 +566,7 @@
 	.flexRow--payment-methods,
 	.flexRow--payment-methods-flags,
 	.flexRow--credits-acct {
-		background-color: #142032;
+		background-color: #E7E9EE;
 	}
 }
 

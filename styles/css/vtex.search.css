@@ -58,7 +58,7 @@
 	color: #36403b;
 }
 .itemListLink:hover .itemListLinkTitle {
-	color: #F71963;
+	color: #003087;
 }
 .itemList--suggestion .itemListLink,
 .itemList--suggestion .itemListSubItemLink {
@@ -68,7 +68,7 @@
 }
 .itemListLink:hover,
 .itemListSubItemLink:hover {
-	color: #F71963;
+	color: #003087;
 	background-color: #FFE0EF !important;
 	font-weight: bold;
 	font-size: 14px;
@@ -128,12 +128,12 @@
 	font-size: 12px;
 	line-height: 16px;
 	letter-spacing: 0.015em;
-	color: #F71963;
+	color: #003087;
 	cursor: pointer;
 }
 .didYouMeanTerm:hover {
 	background: #e6fff3;
-	border-color: #F71963;
+	border-color: #003087;
 }
 @media only screen and (max-width: 1285px) {
 	.biggy-autocomplete-wrapper,
@@ -178,7 +178,7 @@
 		font-weight: bold;
 	}
 	.currencyContainer {
-		color: #F71963;
+		color: #003087;
 		font-weight: 800;
 		font-size: 19px;
 	}
@@ -189,7 +189,7 @@
 		max-width: unset;
 	}
 	.listPriceValue .currencyContainer {
-		color: #F71963;
+		color: #003087;
 	}
 	.itemList--suggestion .itemListLink,
 	.itemList--suggestion .itemListSubItemLink {
@@ -203,7 +203,7 @@
 		font-weight: bold;
 	}
 	.currencyContainer {
-		color: #F71963;
+		color: #003087;
 		font-weight: 800;
 		font-size: 17px;
 	}
@@ -244,11 +244,11 @@
 }
 
 :global(.vtex-product-price-1-x-sellingPrice--summary) {
-	color: #F71963;
+	color: #003087;
 }
 
 :global(.vtex-search-2-x-tileListSeeMore) {
-	background-color: #142032;
+	background-color: #003087;
 	color: #FFFFFF;
 	text-decoration: none;
 	border-radius: 6px;
@@ -269,7 +269,7 @@
 :global(.vtex-search-2-x-itemListSubItemLink),
 :global(.vtex-search-2-x-itemList--suggestion) 
 :global(.vtex-search-2-x-itemListLinkTitle){
-	color: #F71963 !important;
+	color: #003087 !important;
 }
 
 :global(.vtex-search-2-x-tileListTitle) {

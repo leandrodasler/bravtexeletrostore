@@ -1,17 +1,18 @@
 {
 	"search-result-layout#brand": {
 		"blocks": [
-			// "search-result-layout.desktop#brand",
+			// "search-result-layout.desktop.product-comparison#brand",
 			// "search-result-layout.mobile#brand",
 			// "search-not-found-layout"
 		]
 	},
 	/* Desktop */
-	"search-result-layout.desktop#brand": {
+	"search-result-layout.desktop.product-comparison#brand": {
 		"children": [
 			// "flex-layout.row#searchbread",
 			//  "flex-layout.row#searchtitle",
 			//  "flex-layout.row#result"
+			"product-comparison-drawer"
 		],
 		"props": {
 			"pagination": "show-more",

@@ -1,12 +1,17 @@
 {
-	"store.product": {
-		"children": ["responsive-layout.desktop#pdp", "responsive-layout.tablet#pdp", "responsive-layout.phone#pdp"]
+	"store.product.product-comparison#pdp": {
+		"children": [
+			"responsive-layout.desktop#pdp",
+			"responsive-layout.tablet#pdp",
+			"responsive-layout.phone#pdp",
+			"product-comparison-drawer"
+		]
 	},
 	"responsive-layout.desktop#pdp": {
 		"children": [
 			"flex-layout.row#product-breadcrumb",
 			"flex-layout.row#product-main",
-      "flex-layout.row#shelf-pdp-1",
+      		"flex-layout.row#shelf-pdp-1",
 			"flex-layout.row#shelf-pdp-2",
 			"flex-layout.row#shelf-pdp-3"
 		],
@@ -150,6 +155,7 @@
 		"children": [
 			"flex-layout.row#product-brand",
 			"flex-layout.row#product-name",
+			"product-comparison-block.selector",
 			"product-identifier.product",
 			"sku-selector",
 			"seller-text",

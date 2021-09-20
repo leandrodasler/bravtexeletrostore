@@ -1,5 +1,5 @@
 {
-	"store.search": {
+	"store.search.product-comparison": {
 		"blocks": ["search-result-layout#search-result"],
 		"props": {
 			"context": {
@@ -9,7 +9,7 @@
 		}
 	},
 
-	"store.search#brand": {
+	"store.search.product-comparison#brand": {
 		"blocks": ["search-result-layout#brand"],
 		"props": {
 			"context": {
@@ -22,7 +22,7 @@
 		}
 	},
 
-	"store.search#department": {
+	"store.search.product-comparison#department": {
 		"blocks": ["search-result-layout#department"],
 		"props": {
 			"context": {
@@ -33,7 +33,7 @@
 		}
 	},
 
-	"store.search#category": {
+	"store.search.product-comparison#category": {
 		"blocks": ["search-result-layout#category"],
 		"props": {
 			"context": {
@@ -43,7 +43,7 @@
 		}
 	},
 
-	"store.search#subcategory": {
+	"store.search.product-comparison#subcategory": {
 		"blocks": ["search-result-layout#subcategory"],
 		"props": {
 			"context": {
@@ -55,18 +55,19 @@
 
 	"search-result-layout#search-result": {
 		"blocks": [
-			"search-result-layout.desktop#search-page",
+			"search-result-layout.desktop.product-comparison#search-page",
 			"search-result-layout.mobile#search-page-corredor",
 			"search-not-found-layout#search-page"
 		],
 		"title": "search-page - Page"
 	},
-	"search-result-layout.desktop#search-page": {
+	"search-result-layout.desktop.product-comparison#search-page": {
 		"children": [
 			"flex-layout.row#searchbread-search-page",
 			"flex-layout.row#searchtitle",
 			"flex-layout.row#did-you-mean",
 			"flex-layout.row#banner-one",
+			"product-comparison-drawer",
 			"flex-layout.row#content-search-page",
 			"flex-layout.row#fetchmore-search-page"
 		],
@@ -321,7 +322,7 @@
 		"blocks": ["gallery", "not-found"]
 	},
 	"gallery": {
-		"blocks": ["product-summary.shelf#searchs"],
+		"blocks": ["product-summary.shelf.product-comparison#searchs"],
 		"props": {
 			"blockClass": "search-gallery",
 			"maxItemsPerRow": {

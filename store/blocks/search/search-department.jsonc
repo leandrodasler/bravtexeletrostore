@@ -1,17 +1,18 @@
 {
 	"search-result-layout#department": {
 		"blocks": [
-			"search-result-layout.desktop#departament",
+			"search-result-layout.desktop.product-comparison#departament",
 			"search-result-layout.mobile#departament-corredor",
 			"search-not-found-layout#departament"
 		],
 		"title": "Departament - Page"
 	},
-	"search-result-layout.desktop#departament": {
+	"search-result-layout.desktop.product-comparison#departament": {
 		"children": [
 			"flex-layout.row#searchbread-departament",
 			"flex-layout.row#content-departament",
-			"flex-layout.row#fetchmore-departament"
+			"flex-layout.row#fetchmore-departament",
+			"product-comparison-drawer"
 		],
 		"props": {
 			"pagination": "show-more",

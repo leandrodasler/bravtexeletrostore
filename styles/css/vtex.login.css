@@ -10,7 +10,7 @@
 }
 :global(.vtex-login-2-x-container) :global(.vtex-button__label):before {
 	content: '';
-	background-image: url("https://bravtexgrocerystore.vtexassets.com/arquivos/user.png");
+	background-image: url("https://bravtexeletrostore.vtexassets.com/arquivos/user.png");
 	background-repeat: no-repeat;
 	background-position: 50%;
 	background-size: contain;
@@ -23,7 +23,7 @@
 	white-space: nowrap;
 	font-size: 14px;
 	font-weight: bold;
-	color: #F71963;
+	color: #003087;
 	text-align: left;
 	text-transform: none;
 }
@@ -53,9 +53,9 @@ div[class*='vtex-login-2-x-emailPasswordOptionBtn'] button:global(.vtex-button) 
 	text-transform: none;
 }
 div[class*='vtex-login-2-x-emailPasswordOptionBtn'] button:global(.vtex-button):hover {
-	border: 1px solid #F71963;
-	background-color: #F71963;
-	color: #F71963;
+	border: 1px solid #003087;
+	background-color: #003087;
+	color: #003087;
 }
 div[class*='vtex-login-2-x-options'] {
 	min-width: 17rem;
@@ -66,13 +66,11 @@ div[class*='vtex-login-2-x-arrowUp'] {
 span[class*='vtex-login-2-x-profile'] {
 	white-space: nowrap;
 	text-transform: initial;
-	max-width: 77px;
 	text-align: start;
-	display: flex;
 	font-size: 14px;
 	align-items: flex-end;
 	font-weight: bold;
-	color: #F71963;
+	color: #003087;
 }
 @media screen and (min-width: 1025px) {
 	.container :global(.vtex-button__label) span div div {
@@ -101,15 +99,15 @@ span[class*='vtex-login-2-x-profile'] {
 
 .accessCodeOptionBtn :global(.vtex-button) {
 	border: none !important;
-	color: #F71963 !important;
+	color: #003087 !important;
 	font-size: 14px;
 }
 
 .emailPasswordOptionBtn :global(.vtex-button){
-	background-color: #F71963 !important;
+	background-color: #003087 !important;
 	color: white !important;
 	font-weight: bold;
 	text-transform: uppercase !important;
-	border: 1px solid #F71963 !important;
+	border: 1px solid #003087 !important;
 	font-size: 14px;
 }

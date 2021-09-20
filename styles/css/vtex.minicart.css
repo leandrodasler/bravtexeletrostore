@@ -6,7 +6,7 @@
   width: 5px;
 }
 .minicartContainer :global(.vtex-button) {
-  background-image: url('https://bravtexgrocerystore.vtexassets.com/arquivos/shopping-cart.png');
+  background-image: url('https://bravtexeletrostore.vtexassets.com/arquivos/shopping-cart.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -18,7 +18,7 @@
 }
 .minicartQuantityBadgeDefault {
   color: #fff7f2;
-  background: #f71963;
+  background: #003087;
   right: 4px;
   top: -10px;
   width: 12px;
@@ -33,7 +33,7 @@
     padding-left: 8px;
     font-size: 14px;
     font-weight: bold;
-    color: #f71963;
+    color: #003087;
     white-space: nowrap;
   }
   .minicartWrapperContainer {
@@ -54,7 +54,7 @@
 
 :global(.vtex-product-list-0-x-productPrice) {
   font-size: 20px;
-  color: #f71963;
+  color: #003087;
 }
 
 :global(.vtex-product-list-0-x-inputContainer) {
@@ -64,7 +64,7 @@
 
 :global(.vtex-checkout-summary-0-x-summaryItemContainer),
 :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
-  color: #f71963;
+  color: #003087;
 }
 
 :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {

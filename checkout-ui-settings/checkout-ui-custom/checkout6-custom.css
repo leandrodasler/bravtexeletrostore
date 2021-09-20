@@ -1,5 +1,5 @@
 #cart-title {
-	color: #f71963;
+	color: #003087;
 	padding-bottom: 16px;
   }
   
@@ -52,7 +52,7 @@
   
   .link-coupon-add {
 	padding: 16px 21px;
-	background-color: #142032;
+	background-color: #003087;
 	border-radius: 6px;
 	color: #ffffff;
   }
@@ -82,7 +82,7 @@
   .full-cart tfoot .monetary {
 	font-weight: bold;
 	font-size: 22px !important;
-	color: #f71963;
+	color: #003087;
 	text-align: right !important;
 	width: 50%;
   }
@@ -102,7 +102,7 @@
   #find-pickups-manualy-button-denied, 
   #payment-data-submit,
   #btn-go-to-payment {
-	background-color: #f71963 !important;
+	background-color: #003087 !important;
 	background-image: none !important;
 	color: #ffffff;
 	border-radius: 6px;
@@ -116,7 +116,7 @@
   }
   
   #cart-coupon-add {
-	background-color: #f71963 !important;
+	background-color: #003087 !important;
 	background-image: none !important;
 	color: #ffffff;
 	border-radius: 6px;
@@ -126,7 +126,7 @@
   
   #cart-choose-more-products {
 	font-size: 14px;
-	color: #f71963 !important;
+	color: #003087 !important;
 	padding: 16px 84px;
 	background-color: none !important;
 	text-decoration: none;
@@ -159,9 +159,9 @@
   }
 
   .client-pre-email .emailInfo .icon-ok, .client-pre-email .emailInfo h3 {
-	  color: #f71963
+	  color: #003087
   }
 
   .cart-fixed tfoot .info, .cart-fixed tfoot .monetary {
-	  color: #f71963 !important;
+	  color: #003087 !important;
   }

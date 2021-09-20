@@ -8,7 +8,7 @@
 .nameInputContainer :global(.vtex-input__label) {
 	font-size: 12px;
 	line-height: 16px;
-	color: #F71963;
+	color: #003087;
 	margin: 0;
 	width: 194px;
 }
@@ -16,7 +16,7 @@
 	width: 194px;
 	font-size: 12px;
 	line-height: 16px;
-	color: #F71963;
+	color: #003087;
 	margin: 0 8px;
 }
 .formSubmitContainer--newsletter-input-button {
@@ -24,8 +24,8 @@
 	align-items: center;
 }
 .formSubmitContainer :global(.vtex-button) {
-	background: #F71963;
-	border-color: #F71963;
+	background: #003087;
+	border-color: #003087;
 	font-weight: 700;
 }
 .phoneInputContainer :global(.vtex-input-prefix__group) {

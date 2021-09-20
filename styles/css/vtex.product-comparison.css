@@ -1,0 +1,3 @@
+.drawerContainer :global(.vtex-product-summary-2-x-column--drawer-summary-col2) {
+    flex: 40%;
+}

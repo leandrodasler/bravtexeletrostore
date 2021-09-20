@@ -7,7 +7,7 @@
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
-	color: #F71963;
+	color: #003087;
 }
 .sellingPriceValue {
 	font-size: 2.25rem;
@@ -15,12 +15,12 @@
 	margin-right: 4px;
 }
 .installments {
-	color: #F71963;
+	color: #003087;
 	margin-bottom: 1rem;
 }
 .savings {
 	font-weight: 500;
-	color: #F71963;
+	color: #003087;
 }
 
 .sellingPrice--summary {
@@ -35,10 +35,10 @@
 	font-weight: 700;
 	font-size: 22px;
 	line-height: 20px;
-	color: #F71963;
+	color: #003087;
 }
 .savings--summary {
-	background: #F71963;
+	background: #003087;
 	border-radius: 1000px;
 	align-items: center;
 	display: flex;
@@ -63,7 +63,7 @@
 	margin-top: 18px;
 }
 .sellingPrice--main-sell-summary--hasListPrice {
-	color: #F71963;
+	color: #003087;
 	font-size: 15px;
 	font-weight: 800;
 	margin-top: 0px;
@@ -84,7 +84,7 @@
 	color: #aab0ad !important;
 }
 :global(.vtex-flex-layout-0-x-flexColChild--product-info-content) .sellingPriceValue {
-	color: #F71963;
+	color: #003087;
 	font-size: 30px !important;
 	font-weight: 800;
 	line-height: 52px;
@@ -122,13 +122,13 @@
 :global(.vtex-flex-layout-0-x-flexRow--search-byggy) .currencyContainer--summary {
 	font-size: 14px;
 	line-height: 20px;
-	color: #F71963;
+	color: #003087;
 }
 .sellingPriceValue--main-sell-summary {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 20px;
-	color: #F71963;
+	color: #003087;
 }
 /*tablet*/
 @media only screen and (max-width: 1025px) {

@@ -1,6 +1,6 @@
 .notificationBarContainer {
 	background-color: #e6f1e6;
-	color: #F71963;
+	color: #003087;
 	font-weight: 700;
 	font-size: 12px;
 	text-decoration: underline;
@@ -16,7 +16,7 @@
 	padding: 0px;
 }
 .newsletter {
-	background-color: #F71963;
+	background-color: #003087;
 	height: 144px;
 }
 :global(.vtex-flex-layout-0-x-flexRow--payment-methods) .container {
@@ -46,7 +46,7 @@
 /* Pdp */
 :global(.vtex-flex-layout-0-x-flexRow--product-brand-container) .productBrandName--pdp-product-brand {
 	font-size: 12px;
-	color: #F71963;
+	color: #003087;
 	line-height: 16px;
 	letter-spacing: 0.015em;
 	font-weight: bold;
@@ -175,7 +175,7 @@
 .autoCompleteOuterContainer--search-bar-header :global(.vtex-input-prefix__group):hover,
 .autoCompleteOuterContainer--search-bar-header :global(.vtex-input-prefix__group):active {
 	background: #fff;
-	border: 2px solid #F71963;
+	border: 2px solid #003087;
 }
 .autoCompleteOuterContainer--search-bar-header :global(.vtex-input-prefix__group)::before {
 	content: '';
@@ -225,7 +225,7 @@
 	display: flex;
 	align-items: center;
 	padding: 0 24px;
-	background-color: #142032;
+	background-color: #003087;
 }
 .suffixWrapper--search-bar-header .searchBarIcon--search-bar-header--search::before {
 	content: 'Buscar';
@@ -307,8 +307,8 @@
   max-width: 200px;
 	height: 40px;
 	font-size: 14px;
-	background-color: #142032;
-	border: 1px solid #142032;
+	background-color: #003087;
+	border: 1px solid #003087;
   margin-left: 32px;
 }
 
@@ -361,7 +361,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--product-info-content) :global(.vtex-rich-text-0-x-container--pdp-pickup-button-text) {
-	background-color: #142032;
+	background-color: #003087;
 	border-radius: 6px;
 	padding: 0 26px;
 	color: #FFFFFF;
@@ -448,7 +448,7 @@
 	font-size: 12px;
 	line-height: 16px;
 	letter-spacing: 0.015em;
-	color: #F71963;
+	color: #003087;
 	margin-left: 5px;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--search-byggy) .discountInsideContainer {
@@ -602,7 +602,7 @@
 		display: none;
 	}
 	.inputGroup :global(.vtex-styleguide-9-x-hideDecorators):focus {
-		outline-color: #F71963;
+		outline-color: #003087;
 	}
 	/* PdP Mobile */
 	:global(.vtex-flex-layout-0-x-flexCol--product-images-container) .productImagesContainer .productImagesGallerySlide {
@@ -627,14 +627,14 @@
 		height: 16px;
 	}
 	:global(.vtex-flex-layout-0-x-flexCol--product-images-container) .swiperBullet {
-		background-color: #F71963;
+		background-color: #003087;
 		width: 24px;
 		height: 4px;
 		border-radius: 0;
 		opacity: unset;
 	}
 	:global(.vtex-flex-layout-0-x-flexCol--product-images-container) .swiperBullet--active {
-		background-color: #F71963;
+		background-color: #003087;
 	}
 	:global(.vtex-flex-layout-0-x-flexCol--product-images-container) .swiper-pagination {
 		bottom: -4px;
@@ -743,6 +743,17 @@
 	width: 100%;
 }
 
+.imageElement--facebook-footer,
+.imageElement--instagram-footer {
+	background-color: #111C2D;
+	padding: 8px;
+	border-radius: 15px;
+}
+
+.imageElement--facebook-footer {
+	padding: 8px 10px;
+}
+
 .imageElement--instagram-footer {
 	margin-left: 1rem;
 }
@@ -759,7 +770,7 @@
 }
 
 :global(.vtex-seller-selector-0-x-linkSeller) {
-	color: #F71963;
+	color: #003087;
 	text-decoration: none;
 }
 

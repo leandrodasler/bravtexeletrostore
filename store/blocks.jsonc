@@ -106,10 +106,11 @@
 			"add-to-cart-button#search"
 		]
 	},
-	"product-summary.shelf#searchs": {
+	"product-summary.shelf.product-comparison#searchs": {
 		"children": [
 			"stack-layout#productsum",
 			"product-summary-name",
+			"product-comparison-block.selector",
 			"flex-layout.col#selling-and-list-price",
 			"flex-layout.row#add-btn-shelf-pdp-custom-component"
 		]

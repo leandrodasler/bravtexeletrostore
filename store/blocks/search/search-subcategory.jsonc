@@ -1,18 +1,19 @@
 {
 	"search-result-layout#subcategory": {
 		"blocks": [
-			"search-result-layout.desktop#sub-categoria",
+			"search-result-layout.desktop.product-comparison#sub-categoria",
 			"search-result-layout.mobile#sub-categoria-corredor",
 			"search-not-found-layout#sub-categoria"
 		],
 		"title": "search-result - Page"
 	},
-	"search-result-layout.desktop#sub-categoria": {
+	"search-result-layout.desktop.product-comparison#sub-categoria": {
 		"children": [
 			"flex-layout.row#searchbread-subcategoria",
 			"flex-layout.row#searchtitle",
 			"flex-layout.row#content-subcategoria",
-			"flex-layout.row#fetchmore-subcategoria"
+			"flex-layout.row#fetchmore-subcategoria",
+			"product-comparison-drawer"
 		],
 		"props": {
 			"pagination": "show-more",

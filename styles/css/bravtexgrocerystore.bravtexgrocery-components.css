@@ -3,12 +3,12 @@
 	:global(.vtex-numeric-stepper__input) {
 	font-size: 16px;
 	font-weight: bold;
-	color: #142032;
+	color: #003087;
 	width: 106px;
 	height: 48px;
 	border-left: none;
 	border-right: none;
-	border-color: #142032;
+	border-color: #003087;
 	outline: none;
 }
 :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf)
@@ -19,7 +19,7 @@
 	:global(.vtex-numeric-stepper__minus-button) {
 	height: 48px;
 	background-color: transparent;
-	border-color: #142032;
+	border-color: #003087;
 	outline: none;
 }
 :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf)
@@ -29,7 +29,7 @@
 	.contentQuantity
 	:global(.vtex-numeric-stepper__minus-button__text) {
 	font-size: 32px;
-	color: #142032;
+	color: #003087;
 	font-weight: normal;
 }
 
@@ -64,7 +64,7 @@
 }
 .containerWholesaleButton :global(.vtex-button):hover {
 	background-color: #e5fff3;
-	border-color: #142032;
+	border-color: #003087;
 }
 .containerWholesaleButton :global(.vtex-button__label) {
 	padding: 0 !important;
@@ -138,7 +138,7 @@
 		background-color: #e5fff3;
 	}
 	:global(.vtex-product-summary-2-x-containerNormal) .wholesaleInformationsChecked .unitPrice {
-		color: #142032;
+		color: #003087;
 	}
 }
 
