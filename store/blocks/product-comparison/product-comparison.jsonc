@@ -11,7 +11,7 @@
   },
   "product-comparison-block.product-summary-row": {
     "props": {
-      "isShowDifferenceDefault": true
+      "isShowDifferenceDefault": false
     },
     "blocks": ["list-context.comparison-product-summary-slider#comparison-page"]
   },
