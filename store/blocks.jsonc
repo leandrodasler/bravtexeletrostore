@@ -110,7 +110,7 @@
 		"children": [
 			"stack-layout#productsum",
 			"product-summary-name",
-			"product-comparison-block.selector",
+			//"product-comparison-block.selector",
 			"flex-layout.col#selling-and-list-price",
 			"flex-layout.row#add-btn-shelf-pdp-custom-component"
 		]

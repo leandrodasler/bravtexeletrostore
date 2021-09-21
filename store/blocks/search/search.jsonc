@@ -67,7 +67,7 @@
 			"flex-layout.row#searchtitle",
 			"flex-layout.row#did-you-mean",
 			"flex-layout.row#banner-one",
-			"product-comparison-drawer",
+			//"product-comparison-drawer",
 			"flex-layout.row#content-search-page",
 			"flex-layout.row#fetchmore-search-page"
 		],

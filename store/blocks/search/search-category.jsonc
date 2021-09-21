@@ -11,8 +11,8 @@
 		"children": [
 			"flex-layout.row#searchbread-category",
 			"flex-layout.row#content-category",
-			"flex-layout.row#fetchmore-category",
-			"product-comparison-drawer"
+			"flex-layout.row#fetchmore-category"/*,
+			"product-comparison-drawer"*/
 		],
 		"props": {
 			"pagination": "show-more",

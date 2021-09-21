@@ -3,8 +3,8 @@
 		"children": [
 			"responsive-layout.desktop#pdp",
 			"responsive-layout.tablet#pdp",
-			"responsive-layout.phone#pdp",
-			"product-comparison-drawer"
+			"responsive-layout.phone#pdp"/*,
+			"product-comparison-drawer"*/
 		]
 	},
 	"responsive-layout.desktop#pdp": {
@@ -155,7 +155,7 @@
 		"children": [
 			"flex-layout.row#product-brand",
 			"flex-layout.row#product-name",
-			"product-comparison-block.selector",
+			//"product-comparison-block.selector",
 			"product-identifier.product",
 			"sku-selector",
 			"seller-text",
