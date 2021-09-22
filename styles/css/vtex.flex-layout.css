@@ -316,6 +316,8 @@
 	padding: 0 !important;
 }
 .flexRow--quantity-and-buy-btn-container :global(.vtex-button) {
+	background-color: #003087;
+    border-color: #003087;
 	white-space: nowrap;
 	min-height: 48px;
   max-width: none;
