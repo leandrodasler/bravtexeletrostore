@@ -1,8 +1,22 @@
 {
   "store.custom#product-comparison-list": {
+    "children": ["flex-layout.row#comparison-page"]
+  },
+  "flex-layout.row#comparison-page": {
+		"children": ["flex-layout.col#comparison-page"],
+		"props": {
+			"blockClass": "comparison-page"
+		}
+	},
+  "flex-layout.col#comparison-page": {
+		"children": ["comparison-page"],
+		"props": {
+			"blockClass": "comparison-page"
+		}
+	},
+  "comparison-page": {
     "children": ["slider-layout-group#comparison-page"]
   },
-
   "slider-layout-group#comparison-page": {
     "children": [
       "product-comparison-block.product-summary-row",
@@ -10,9 +24,6 @@
     ]
   },
   "product-comparison-block.product-summary-row": {
-    "props": {
-      "isShowDifferenceDefault": false
-    },
     "blocks": ["list-context.comparison-product-summary-slider#comparison-page"]
   },
   "list-context.comparison-product-summary-slider#comparison-page": {
@@ -26,7 +37,8 @@
       "product-summary-name",
       "product-summary-space",
       "product-summary-price#comparison",
-      "product-summary-buy-button"
+      // "product-summary-buy-button"
+      "add-to-cart-button#search"
     ],
     "props": {
       "blockClass": "comparison-page-summary"
