@@ -12,7 +12,7 @@
 			// "flex-layout.row#searchbread",
 			//  "flex-layout.row#searchtitle",
 			//  "flex-layout.row#result"
-			//"product-comparison-drawer"
+			"product-comparison-drawer"
 		],
 		"props": {
 			"pagination": "show-more",
