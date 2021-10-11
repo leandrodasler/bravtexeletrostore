@@ -1082,7 +1082,7 @@ span[class*='vtex-my-orders-app-3-x-orderProductQuantityValue']
 :global(.vtex-pageHeader-link__container) :global(.vtex-button):hover {
 	background: transparent;
 	text-decoration: underline;
-	color: #e5fff3;
+	/* color: #e5fff3; */
 }
 :global(.vtex-pageHeader-link__container) :global(.vtex-button):hover :global(.vtex-button__label) span {
 	color: #e5fff3;

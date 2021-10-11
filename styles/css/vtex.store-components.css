@@ -39,7 +39,9 @@
 :global(.vtex-flex-layout-0-x-flexRow--payment-methods) .container,
 :global(.vtex-flex-layout-0-x-flexRow--newsletter) .container,
 :global(.vtex-flex-layout-0-x-flexRow--menu-row) .container,
-:global(.vtex-flex-layout-0-x-flexRow--credits) .container {
+:global(.vtex-flex-layout-0-x-flexRow--credits) .container,
+:global(.vtex-flex-layout-0-x-flexRow--comparison-page) .container,
+:global(.vtex-product-comparison-0-x-drawer) {
 	max-width: 1238px;
 	margin: 0 auto;
 }
