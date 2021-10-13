@@ -10,7 +10,7 @@
 }
 :global(.vtex-login-2-x-container) :global(.vtex-button__label):before {
 	content: '';
-	background-image: url("https://bravtexeletrostore.vtexassets.com/arquivos/user.png");
+	background-image: url("https://bravtexeletrostore.vtexassets.com/arquivos/user.svg");
 	background-repeat: no-repeat;
 	background-position: 50%;
 	background-size: contain;

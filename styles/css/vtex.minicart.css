@@ -6,7 +6,7 @@
   width: 5px;
 }
 .minicartContainer :global(.vtex-button) {
-  background-image: url('https://bravtexeletrostore.vtexassets.com/arquivos/shopping-cart.png');
+  background-image: url('https://bravtexeletrostore.vtexassets.com/arquivos/shopping-cart.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;

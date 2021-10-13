@@ -92,6 +92,7 @@
 .tileListItem :global(.vtex-product-summary-2-x-element) {
 	border: none;
 	padding: 0 5px 0 0;
+	height: 320px;
 }
 .itemList--top-search::before {
 	content: 'Produtos mais buscados';
