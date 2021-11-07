@@ -1,0 +1,80 @@
+{
+  "store.storelocator": {
+    "blocks": ["flex-layout.row#store-locator-title", "flex-layout.row#store-locator-container"]
+  },
+  "flex-layout.row#store-locator-title": {
+    "children": ["flex-layout.col#store-locator-title"],
+    "props": {
+      "blockClass": "list-products-container"
+    }
+  },
+  "flex-layout.row#store-locator-container": {
+    "children": ["store-list"],
+    "props": {
+      "blockClass": "list-products-container"
+    }
+  },
+  "store-list": {
+
+  },
+  "flex-layout.col#store-locator-title": {
+    "children": ["rich-text#store-locator-title"],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#store-locator-title": {
+    "props": {
+      "text": "## Nossas lojas"
+    }
+  },
+  "store.storedetail": {
+    "blocks": ["store-group"]
+  },
+  "store-group": {
+    "children": ["flex-layout.row#store-locator-containerStore"],
+    "props": {
+      "title": "Loja {storeName}"
+    }
+  },
+  "flex-layout.row#store-locator-containerStore": {
+    "children": ["flex-layout.col#detail", "flex-layout.col#store-map"],
+    "props": {
+      "blockClass": "list-products-container"
+    }
+  },
+  "flex-layout.col#detail": {
+    "children": ["store-back-link", "store-name", "store-instructions", "store-address", "store-hours"],
+    "props": {
+      "width": "50%",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#store-map": {
+    "children": ["store-map"],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "store-map": {
+    "props": {
+      "height": "50vh"
+    }
+  },
+  "store-hours": {
+    "props": {
+      "label": "Horário de funcionamento",
+      "format": "24h"
+    }
+  },
+  "store-back-link": {
+    "props": {
+      "label": "« Todas as lojas"
+    }
+  }
+  // "store-instructions": {
+  //   "props": {
+  //     "label": "Instructions: "
+  //   }
+  // }
+}

@@ -118,11 +118,13 @@
 	font-size: 28px;
 	font-weight: 700;
 }
-.paragraph--text-top-1 {
+.paragraph--text-top-1,
+.link--text-top-1 {
 	font-weight: bold;
 	font-size: 12px;
 	color: #f2fff9;
 	margin: 4px 0;
+	text-decoration: none;
 }
 .container--breakline_footer {
 	border: 1px solid #f1efed;

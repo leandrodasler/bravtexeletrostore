@@ -107,7 +107,7 @@
 	},
 	"rich-text#top-text-2-col-2": {
 		"props": {
-			"text": "Nossas Lojas",
+			"text": "[Nossas Lojas](/stores)",
 			"textColor": "c-on-emphasis",
 			"blockClass": "text-top-1"
 		}
