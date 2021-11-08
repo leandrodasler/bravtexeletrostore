@@ -38,10 +38,10 @@
   color: #4a596b;
 }
 
-/* .addressListLink {
-  display: none;
-  margin-top: 16px;
-} */
+.addressListLink {
+  display: block;
+  margin-top: .85em;
+}
 
 .backlinkContainer {
   margin: .85em 0
@@ -53,6 +53,6 @@
   color: #003087;
 }
 
-.storeName, .instructionsContainer, .addressContainer, .hoursContainer {
-  margin-bottom: .5em;
+.storeName, .instructionsContainer, .addressContainer {
+  margin-bottom: .85em;
 }

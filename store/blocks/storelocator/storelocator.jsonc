@@ -14,9 +14,6 @@
       "blockClass": "list-products-container"
     }
   },
-  "store-list": {
-
-  },
   "flex-layout.col#store-locator-title": {
     "children": ["rich-text#store-locator-title"],
     "props": {
@@ -40,7 +37,9 @@
   "flex-layout.row#store-locator-containerStore": {
     "children": ["flex-layout.col#detail", "flex-layout.col#store-map"],
     "props": {
-      "blockClass": "list-products-container"
+      "blockClass": "list-products-container",
+      "paddingTop": 6,
+      "paddingBottom": 6
     }
   },
   "flex-layout.col#detail": {
@@ -72,9 +71,4 @@
       "label": "« Todas as lojas"
     }
   }
-  // "store-instructions": {
-  //   "props": {
-  //     "label": "Instructions: "
-  //   }
-  // }
 }
