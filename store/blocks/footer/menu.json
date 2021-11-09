@@ -125,17 +125,17 @@
 	},
 	"menu-item#Folhetos": {
 		"props": {
-			"id": "menu-item-Folhetos",
+			"id": "menu-item-Entrega",
 			"type": "custom",
 			"iconId": null,
 			"highlight": false,
 			"blockClass": "footer-menu-items",
 			"itemProps": {
 				"type": "internal",
-				"href": "#",
+				"href": "/logistics",
 				"noFollow": false,
-				"tagTitle": "Folhetos",
-				"text": "Folhetos"
+				"tagTitle": "Entrega",
+				"text": "Entrega"
 			}
 		},
 		"title": "Footer block item"

@@ -10,5 +10,8 @@
   },
   "store.custom#product-comparison-list": {
     "path": "/product-comparison"
+  },
+  "store.custom#logistic": {
+    "path": "/logistics"
   }
 }
