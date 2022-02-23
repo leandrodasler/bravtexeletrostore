@@ -7,7 +7,8 @@
       "op-section#confirmation",
       "op-section#notices",
       "op-summary-section",
-      "op-bank-invoice-section"
+      "op-bank-invoice-section",
+      "zenvia-store"
     ]
   },
   "op-section#confirmation": {
