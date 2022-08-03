@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Applying buy box component on multiple sellers products.
+
 ## [3.0.2] - 2022-05-06
 
 ## [3.0.1] - 2022-03-09

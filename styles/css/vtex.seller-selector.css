@@ -1,14 +1,21 @@
 .sellerMasterContainer {
   max-width: 1238px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .simulateShipping {
-  width: 100%;
-  margin-bottom: 1rem;
-  justify-content: space-between;
   align-items: center;
-  padding-right: 1rem;
+  border: none;
+  margin-top: 0;
+  height: 120px;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.simulateShipping :global(.vtex-button) {
+  margin-top: -15px;
+  height: 2.5rem;
+  font-weight: bold;
 }
 
 .simulateShipping :global(.vtex-address-form__postalCode) {
@@ -16,7 +23,7 @@
 }
 
 .simulateShipping :global(.vtex-address-form__postalCode) :global(.vtex-input__label)::before {
-  content: 'Insira o seu CEP' !important;
+  content: '' !important;
 }
 
 .linkSeller {
@@ -27,3 +34,82 @@
 .linkSellerText {
   padding: 0;
 }
+
+.sellerMasterContainer :local(> div:nth-child(3)),
+.sellerMasterContainer :local(> div:nth-child(4)) {
+  border: #ccc solid 1px;
+  border-radius: 6px;
+}
+
+.sellerMasterContainer :local(> div:nth-child(3)) {
+  margin: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+
+.sellerMasterContainer :local(> div:nth-child(4)) {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+  margin: 0;
+}
+
+.sellerShippingText:nth-child(even),
+.sellerPriceShippingText:nth-child(even) {
+  background-color: unset;
+}
+
+.sellerPrice,
+.sellerShipping,
+.sellerName,
+.sellerBuyContainer {
+  width: 100%;
+  text-align: left;
+}
+
+.sellerShipping {
+  white-space: nowrap;
+}
+
+.sellerName {
+  color: #4a596b;
+}
+
+.sellerName::before {
+  content: 'Vendido por ';
+  font-weight: normal;
+}
+
+.sellerPrice,
+.sellerShipping .currencyContainer {
+  order: 999;
+  color: #003087;
+  font-weight: bold;
+}
+
+.sellerPrice::before,
+.sellerShipping .currencyContainer::before {
+  content: 'Por ';
+}
+
+.sellerShipping .currencyContainer::before {
+  color: #000;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+.sellerBuyContainer {
+  padding: 0;
+}
+
+.sellerShippingText {
+  display: flex;
+  align-content: center;
+  gap: 5px;
+}
+
+.sellerShippingText::before {
+  content: url("data:image/svg+xml,%0A%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_1269_2528)'%3E%3Cpath d='M8.99994 18.37V6.37H3.49994C2.71996 6.43395 1.99584 6.80018 1.48208 7.39054C0.968315 7.9809 0.705587 8.74865 0.749944 9.52999V17.32C0.736098 17.5804 0.824536 17.8359 0.996401 18.0321C1.16827 18.2282 1.40996 18.3495 1.66994 18.37H3.24994' stroke='%23142032' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5.5 20.62C6.74264 20.62 7.75 19.6126 7.75 18.37C7.75 17.1274 6.74264 16.12 5.5 16.12C4.25736 16.12 3.25 17.1274 3.25 18.37C3.25 19.6126 4.25736 20.62 5.5 20.62Z' stroke='%23142032' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M17.25 20.62C18.4926 20.62 19.5 19.6126 19.5 18.37C19.5 17.1274 18.4926 16.12 17.25 16.12C16.0074 16.12 15 17.1274 15 18.37C15 19.6126 16.0074 20.62 17.25 20.62Z' stroke='%23142032' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M0.75 10.87H5.13C5.245 10.8727 5.35936 10.8521 5.46615 10.8094C5.57294 10.7666 5.66994 10.7026 5.75128 10.6213C5.83262 10.5399 5.8966 10.4429 5.93936 10.3361C5.98211 10.2294 6.00274 10.115 6 10V6.38' stroke='%23142032' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M7.75 18.37H15' stroke='%23142032' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M0.75 14.37H3.21' stroke='%23142032' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M23.25 13.37H9V4.88C9 4.48217 9.15804 4.10064 9.43934 3.81934C9.72064 3.53803 10.1022 3.38 10.5 3.38H21.75C22.1478 3.38 22.5294 3.53803 22.8107 3.81934C23.092 4.10064 23.25 4.48217 23.25 4.88V13.37Z' stroke='%23142032' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M19.5 18.37H21.75C22.1478 18.37 22.5294 18.212 22.8107 17.9307C23.092 17.6494 23.25 17.2678 23.25 16.87V13.37' stroke='%23142032' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1269_2528'%3E%3Crect width='24' height='24' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+}
+

@@ -436,7 +436,11 @@
 .flexCol--logistic-card-content {
   height: fit-content;
 }
-
+.flexRow--buybox-row {
+  border-bottom: #A1A8B3 solid 1px;
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+}
 @media (min-width: 1540px) {
   .flexRow--home-shelf-1 {
     padding: 0;
