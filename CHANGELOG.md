@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Return button on sellers page
+
+### Changed
+
+- Fix add to cart button active style.
+
 ## [4.0.0] - 2022-08-03
 
 ### Added

@@ -1,6 +1,26 @@
 {
   "store.sellers": {
-    "blocks": ["seller-table"]
+    "blocks": ["flex-layout.row#sellers-page"]
+  },
+  "flex-layout.row#sellers-page": {
+    "props": {
+      "blockClass": "category-menu-header",
+      "paddingTop": 6
+    },
+    "children": ["flex-layout.col#sellers-page"]
+  },
+  "flex-layout.col#sellers-page": {
+    "props": {
+
+    },
+    "children": ["link.product#return-to-product", "seller-table"]
+  },
+  "link.product#return-to-product": {
+    "props": {
+      "label": "↞ Retornar para a página do produto",
+      "href": "/{slug}/p",
+      "displayMode": "button"
+    }
   },
   "seller-table": {
     "children": [
