@@ -432,7 +432,7 @@
   height: fit-content;
 }
 .flexRow--buybox-row {
-  border-bottom: #A1A8B3 solid 1px;
+  border-top: #A1A8B3 solid 1px;
   padding-top: 1rem;
   padding-right: 1.5rem;
 }
