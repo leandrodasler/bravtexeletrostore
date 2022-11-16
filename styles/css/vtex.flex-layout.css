@@ -292,6 +292,9 @@
 .flexCol--product-images-container {
   max-width: none;
 }
+.flexColChild--product-images-container {
+  height: auto !important;
+}
 .flexRowContent--pdp-wish-and-share-content {
   align-items: center;
   justify-content: space-evenly;
