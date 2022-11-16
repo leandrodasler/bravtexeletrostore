@@ -7,9 +7,10 @@
 		"children": [
 			"list-context.image-list#demo",
 			"flex-layout.row#deals",
-			"flex-layout.row#shelf-banner-desktop",
+			"flex-layout.row#banner-gift-list",
 			"flex-layout.row#shelf-title1",
 			"flex-layout.row#shelf1",
+			"flex-layout.row#shelf-banner-desktop",
 			"flex-layout.row#shelf-title2",
 			"flex-layout.row#shelf2"
 		],
@@ -72,6 +73,24 @@
 		"children": ["flex-layout.col#shelf"],
 		"title": "Home - Prateleira 1"
 	},
+	"flex-layout.row#banner-gift-list": {
+		"children": ["image#banner-gift-list"],
+		"props": {
+			"width": "25%",
+			"blockClass": ["shelf-banner"]
+		},
+		"title": "Banner - Lista de presentes"
+	},
+	"image#banner-gift-list": {
+		"props": {
+			"src": "assets/gift-list.jpg",
+			"blockClass": "banner-sales",
+			"link": {
+				"url": "http://eletrolists.myvtex.com/"
+			}
+		},
+		"title": "Banner - Lista de presentes"
+	},
 	"flex-layout.row#shelf-banner-desktop": {
 		"children": ["image#shelf-banner-desktop"],
 		"props": {
@@ -84,7 +103,9 @@
 		"props": {
 			"src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/48d139a3-c20a-4eb0-aa94-8fe4a9369e78___474ca52ef2a1572f848f2c7004d3ee9c.png",
 			"blockClass": "banner-sales",
-			"link": "/"
+			"link": {
+				"url": "/"
+			}
 		},
 		"title": "Prateleira 1 - Imagem"
 	},
