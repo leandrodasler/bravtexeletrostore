@@ -4,18 +4,16 @@
 }
 
 .simulateShipping {
-  align-items: center;
   border: none;
   margin-top: 0;
-  height: 120px;
   padding-left: 0;
   margin-left: 0;
 }
 
 .simulateShipping :global(.vtex-button) {
-  margin-top: -15px;
   height: 2.5rem;
   font-weight: bold;
+  margin-top: 0;
 }
 
 .simulateShipping :global(.vtex-address-form__postalCode) {
@@ -24,11 +22,6 @@
 
 .simulateShipping :global(.vtex-address-form__postalCode) :global(.vtex-input__label)::before {
   content: '' !important;
-}
-
-.linkSeller {
-  margin-right: 40px;
-  margin-top: -16px;
 }
 
 .linkSellerText {
@@ -74,6 +67,7 @@
 
 .sellerName {
   color: #4a596b;
+  background-color: unset !important;
 }
 
 .sellerName::before {
@@ -105,8 +99,15 @@
 
 .sellerShippingText {
   display: flex;
+  flex-wrap: wrap;
   align-content: center;
   gap: 5px;
+}
+
+@media screen and (min-width: 40em) {
+  .sellerShippingText {
+    flex-wrap: nowrap;
+  } 
 }
 
 .sellerShippingText::before {

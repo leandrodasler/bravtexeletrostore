@@ -434,7 +434,11 @@
 .flexRow--buybox-row {
   border-top: #A1A8B3 solid 1px;
   padding-top: 1rem;
-  padding-right: 1.5rem;
+}
+@media screen and (min-width: 40em) {
+  .flexRow--buybox-row {
+    padding-right: 1.5rem;
+  }
 }
 @media (min-width: 1540px) {
   .flexRow--home-shelf-1 {

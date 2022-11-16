@@ -160,7 +160,6 @@
       "sku-selector",
       "seller-text",
       "flex-layout.row#price-and-add-to-cart",
-      "link-seller",
       "rich-text#texto-entrega",
       // "rich-text#texto-cep",
       // "flex-layout.col#shipping-product",
@@ -228,7 +227,10 @@
       "blockClass": "quantity-and-buy-btn-container"
     },
     // "children": ["add-to-cart-quantity-stepper#pdp"]
-    "children": ["add-to-cart-button#pdp"]
+    "children": ["flex-layout.col#quantity-buy-button-custom-component"]
+  },
+  "flex-layout.col#quantity-buy-button-custom-component": {
+    "children": ["add-to-cart-button#pdp", "link-seller"]
   },
   "add-to-cart-quantity-stepper#pdp": {
     "blocks": ["add-to-cart-button#pdp"]
