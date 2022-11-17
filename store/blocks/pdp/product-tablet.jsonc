@@ -46,7 +46,7 @@
 			"rich-text#texto-entrega",
 			"condition-layout.product#oneSeller",
 			"condition-layout.product#multipleSellers",
-			"availability-subscriber",
+			"condition-layout.product#availability-notify",
 			"product-assembly-options"
 		],
 		"title": "Informações do Produto"

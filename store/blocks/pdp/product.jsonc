@@ -161,11 +161,9 @@
       "seller-text",
       "flex-layout.row#price-and-add-to-cart",
       "rich-text#texto-entrega",
-      // "rich-text#texto-cep",
-      // "flex-layout.col#shipping-product",
       "condition-layout.product#oneSeller",
       "condition-layout.product#multipleSellers",
-      "availability-subscriber",
+      "condition-layout.product#availability-notify",
       "product-assembly-options"
     ],
     "title": "Informações do Produto"
@@ -183,6 +181,7 @@
   "condition-layout.product#oneSeller": {
     "props": {
       "conditions": [
+        { "subject": "isProductAvailable", "toBe": false },
         {
           "subject": "hasMoreSellersThan",
           "arguments": { "quantity": 1 }
@@ -191,10 +190,6 @@
       "matchType": "none"
     },
     "children": [
-      // "seller-text",
-      // "flex-layout.row#price-and-add-to-cart",
-      // "link-seller",
-      // "rich-text#texto-entrega",
       "rich-text#texto-cep",
       "flex-layout.col#shipping-product"
     ]
@@ -202,12 +197,19 @@
   "condition-layout.product#multipleSellers": {
     "props": {
       "conditions": [
+        { "subject": "isProductAvailable", "toBe": true  },
         {
           "subject": "hasMoreSellersThan",
           "arguments": { "quantity": 1 }
         }
       ],
       "Then": "seller-table"
+    }
+  },
+  "condition-layout.product#availability-notify": {
+    "props": {
+      "conditions": [{ "subject": "isProductAvailable", "toBe": false }],
+      "Then": "availability-notify"
     }
   },
   "flex-layout.row#price-and-add-to-cart": {
