@@ -171,7 +171,11 @@
 		"children": ["search-fetch-more"]
 	},
   	"flex-layout.row#banner-one": {
-    	"children": ["search-banner#one"]
+    	"children": ["search-banner#one"],
+		"props": {
+			"marginTop": 6,
+			"marginBottom": 6
+		}
   	},
 
   	"search-banner#one": {

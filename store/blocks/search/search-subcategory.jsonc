@@ -11,6 +11,7 @@
 		"children": [
 			"flex-layout.row#searchbread-subcategoria",
 			"flex-layout.row#searchtitle",
+			"flex-layout.row#banner-one",
 			"flex-layout.row#content-subcategoria",
 			"flex-layout.row#fetchmore-subcategoria",
 			"product-comparison-drawer"

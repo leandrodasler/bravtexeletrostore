@@ -10,6 +10,8 @@
 	"search-result-layout.desktop.product-comparison#departament": {
 		"children": [
 			"flex-layout.row#searchbread-departament",
+			"flex-layout.row#searchtitle",
+			"flex-layout.row#banner-one",
 			"flex-layout.row#content-departament",
 			"flex-layout.row#fetchmore-departament",
 			"product-comparison-drawer"
@@ -66,7 +68,6 @@
 	},
 	"flex-layout.col#products-departament": {
 		"children": [
-			"flex-layout.col#title-banner",
 			"flex-layout.row#departament-searchinfo-corredor",
 			"flex-layout.row#departament-products-corredor"
 		],

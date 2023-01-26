@@ -12,6 +12,7 @@
 			// "flex-layout.row#searchbread",
 			//  "flex-layout.row#searchtitle",
 			//  "flex-layout.row#result"
+			"flex-layout.row#banner-one",
 			"product-comparison-drawer"
 		],
 		"props": {
