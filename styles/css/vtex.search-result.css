@@ -182,6 +182,10 @@
 .filter__container--category-1 .filterTitle::before {
 	content: 'Categoria';
 }
+.filter__container--selectedFilters {
+	display: none;
+}
+
 .filter__container--brand .filterTitle::before {
 	content: 'Marcas';
 }
