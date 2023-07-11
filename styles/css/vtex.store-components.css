@@ -1,3 +1,7 @@
+.container {
+    max-width: 1238px;
+    margin: 0 auto;
+}
 .notificationBarContainer {
 	background-color: #e6f1e6;
 	color: #003087;

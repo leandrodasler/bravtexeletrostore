@@ -146,6 +146,16 @@
       "blockClass": "pdp-images"
     }
   },
+  "buybox-context#product-col": {
+    "props": {
+      "conditionalStrategy": {
+        "sortStrategy": "customExpression",
+        "expression": "productPrice"
+      },
+      "triggerCepChangeEvent": "sellerSelector"
+    },
+    "children": ["flex-layout.col#right-col"]
+  },
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -167,16 +177,6 @@
       "product-assembly-options"
     ],
     "title": "Informações do Produto"
-  },
-  "buybox-context#product-col": {
-    "props": {
-      "conditionalStrategy": {
-        "sortStrategy": "customExpression",
-        "expression": "productPrice"
-      },
-      "triggerCepChangeEvent": "sellerSelector"
-    },
-    "children": ["flex-layout.col#right-col"]
   },
   "condition-layout.product#oneSeller": {
     "props": {

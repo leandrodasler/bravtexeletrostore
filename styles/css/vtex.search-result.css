@@ -212,6 +212,9 @@
 	max-width: 100%;
 	padding-top: 24px !important;
 }
+.productCount {
+	float: right;
+}
 /*breackpoint of container*/
 @media screen and (min-width: 40em) {
 	.notFound--layout--departament-desktop {

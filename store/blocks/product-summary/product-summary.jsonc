@@ -1,4 +1,13 @@
 {
+	"product-summary.shelf": {
+		"children": [
+			"add-to-list-btn#list-buy",
+			"stack-layout#prodsum",
+			"product-summary-name",
+			"flex-layout.col#selling-and-list-price",
+			"flex-layout.row#add-btn-shelf-pdp-custom-component"
+		]
+	},
 	"product-summary.shelf#home": {
 		"children": [
 			"add-to-list-btn#list-buy",

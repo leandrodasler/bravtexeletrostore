@@ -10,9 +10,7 @@
     "children": ["flex-layout.col#sellers-page"]
   },
   "flex-layout.col#sellers-page": {
-    "props": {
-
-    },
+    "props": {},
     "children": ["link.product#return-to-product", "seller-table"]
   },
   "link.product#return-to-product": {
@@ -24,11 +22,9 @@
   },
   "seller-table": {
     "children": [
-      // "vtex.store-components:product-name",
       "rich-text#texto-cep",
       "seller-simulate-shipping",
-      // "seller-head",
-      /* "seller-body" */ "buybox-context"
+      "buybox-context"
     ]
   },
   "buybox-context": {
@@ -49,7 +45,7 @@
     "title": "Buy box text"
   },
   "seller-body.buybox": {
-    "children": ["flex-layout.row#buybox" /* "seller-row" */]
+    "children": ["flex-layout.row#buybox"]
   },
   "flex-layout.row#buybox": {
     "props": {
@@ -57,11 +53,18 @@
     },
     "children": ["flex-layout.col#buybox-info", "flex-layout.col#buybox-button"]
   },
+  "seller-page-link": {
+    "children": ["seller-name"]
+  },
   "flex-layout.col#buybox-info": {
     "props": {
       "width": "70%"
     },
-    "children": ["seller-price", "seller-shipping", "seller-name" /* , "seller-price-with-shipping" */]
+    "children": [
+      "seller-price",
+      "seller-shipping",
+      "seller-page-link"
+    ]
   },
   "flex-layout.col#buybox-button": {
     "props": {
@@ -72,44 +75,4 @@
   "seller-add-to-cart": {
     "blocks": ["add-to-cart-button"]
   }
-  // "seller-head": {
-  //   "children": [
-  //     "seller-head-cell#Seller",
-  //     "seller-head-cell#Price",
-  //     "seller-head-cell#Shipping",
-  //     "seller-head-cell#PriceWithShipping",
-  //     "seller-head-cell#BuyButton"
-  //   ]
-  // },
-  // "seller-head-cell#Seller": {
-  //   "props": {
-  //     "title": "Loja"
-  //   }
-  // },
-  // "seller-head-cell#Price": {
-  //   "props": {
-  //     "title": "Preço"
-  //   }
-  // },
-  // "seller-head-cell#Shipping": {
-  //   "props": {
-  //     "title": "Frete"
-  //   }
-  // },
-  // "seller-head-cell#PriceWithShipping": {
-  //   "props": {
-  //     "title": "Preço com frete"
-  //   }
-  // },
-  // "seller-head-cell#BuyButton": {
-  //   "props": {
-  //     "title": "Adicionar ao carrinho"
-  //   }
-  // },
-  // "seller-body": {
-  //   "children": ["seller-row"]
-  // },
-  // "seller-row": {
-  //   "children": ["seller-name", "seller-price", "seller-shipping", "seller-price-with-shipping", "seller-add-to-cart"]
-  // }
 }
