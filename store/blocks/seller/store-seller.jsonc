@@ -62,7 +62,23 @@
       "product-summary-name",
       "product-summary-space",
       "seller-product-price",
-      "flex-layout.row#add-btn-shelf-pdp-custom-component"
+      "flex-layout.row#view-product-button"
     ]
+  },
+  "flex-layout.row#view-product-button": {
+    "props": {
+      "blockClass": "add-to-cart-btn-container-shelf"
+    },
+    "children": ["add-to-cart-quantity-stepper#view-product-button"]
+  },
+  "add-to-cart-quantity-stepper#view-product-button": {
+    "blocks": ["add-to-cart-button#view-product-button"]
+  },
+  "add-to-cart-button#view-product-button": {
+    "props": {
+      "blockClass": "shelfs-add-to-cart-btn",
+      "onClickBehavior": "go-to-product-page",
+      "text": "VISUALIZAR"
+    }
   }
 }
