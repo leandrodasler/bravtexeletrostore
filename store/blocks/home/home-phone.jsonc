@@ -2,8 +2,10 @@
 	"responsive-layout.phone#home": {
 		"children": [
 			"list-context.image-list#demo",
-			"flex-layout.row#deals",
+			// "flex-layout.row#deals",
 			"flex-layout.row#banner-gift-list",
+			"flex-layout.row#category-cards-title",
+			"flex-layout.row#category-cards",
 			"flex-layout.row#shelf-title1",
 			"flex-layout.row#shelf1-mobile",
 			"flex-layout.row#shelf-banner-mobile",
@@ -16,7 +18,8 @@
 	"flex-layout.row#shelf1-mobile": {
 		"children": ["flex-layout.col#shelf"],
 		"props": {
-			"blockClass": ["home-shelf-1"]
+			"blockClass": ["home-shelf-1"],
+			"paddingBottom": 8
 		},
 		"title": "Home - Prateleira 1"
 	},
@@ -25,6 +28,7 @@
 		"children": ["image#shelf-banner-mobile"],
 		"props": {
 			"fullWidth": true,
+			"marginBottom": 8,
 			"blockClass": ["shelf-banner"]
 		},
 		"title": "Prateleira 1 - Banner"

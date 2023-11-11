@@ -2,8 +2,8 @@
   flex-wrap: wrap;
   justify-content: end;
 }
-.sliderLayoutContainer--carousel {
-  padding-bottom: 1rem;
+.imageElementLink {
+  line-height: 0;
 }
 .paginationDotsContainer {
   z-index: 1;
@@ -26,6 +26,7 @@
   border-radius: 50%;
   padding: 10px;
   transition: all 0.3s ease;
+  z-index: 1;
 }
 :global(.vtex-shelf-1-x-arrow):hover,
 .sliderArrows--carousel:hover,
@@ -40,7 +41,7 @@
 }
 .sliderArrows--shelf {
   position: relative;
-  margin-top: -5rem;
+  /* margin-top: -5rem; */
 }
 .sliderTrackContainer--shelf {
   order: 1;
@@ -118,5 +119,19 @@
   }
   .sliderLayoutContainer--not-found-shelf {
     padding: 0 10px !important;
+  }
+}
+
+@media (max-width: calc(64rem - 1px)) {
+  .caretIcon--deals,
+  .caretIcon--category-cards {
+    color: var(--color-primary);
+    height: 16px;
+  }
+
+  .sliderArrows--deals,
+  .sliderArrows--category-cards {
+    margin: 0;
+    padding: 0;
   }
 }

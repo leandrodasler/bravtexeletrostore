@@ -362,11 +362,8 @@
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "ONE_BY_ONE",
-        "arrows": true,
-        "showTitle": true,
-        "paginationDotsVisibility": "never",
+        "scroll": "BY_PAGE",
+        "gap": "ph4",
         "titleText": "Sugestão de compra"
       }
     },
@@ -386,11 +383,8 @@
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "ONE_BY_ONE",
-        "arrows": true,
-        "showTitle": true,
-        "paginationDotsVisibility": "never",
+        "scroll": "BY_PAGE",
+        "gap": "ph4",
         "titleText": "Produtos Similares"
       }
     },
@@ -408,14 +402,11 @@
       "blockClass": "pdp-related-products",
       "recommendation": "view",
       "productList": {
+        "titleText": "Quem viu este, viu também",
         "maxItems": 10,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1,
-        "scroll": "ONE_BY_ONE",
-        "arrows": true,
-        "showTitle": true,
-        "paginationDotsVisibility": "never",
-        "titleText": "Quem viu este, viu também"
+        "scroll": "BY_PAGE",
+        "gap": "ph4"
       }
     },
     "title": "Produtos Relacionados #3"

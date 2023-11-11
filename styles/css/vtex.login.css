@@ -19,6 +19,7 @@
   color: #003087;
   text-align: left;
   text-transform: none;
+  font-weight: 600;
 }
 div[class*='vtex-login-2-x-container'] :global(.vtex-button__label) {
   padding: 0 !important;

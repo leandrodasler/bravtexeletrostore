@@ -6,8 +6,10 @@
   "responsive-layout.desktop#home": {
     "children": [
       "list-context.image-list#demo",
-      "flex-layout.row#deals",
+      // "flex-layout.row#deals",
       "flex-layout.row#banner-gift-list",
+      "flex-layout.row#category-cards-title",
+      "flex-layout.row#category-cards",
       "flex-layout.row#shelf-title1",
       "flex-layout.row#shelf1",
       "flex-layout.row#shelf-banner-desktop",
@@ -42,7 +44,7 @@
       },
       "infinite": true,
       "showNavigationArrows": "always",
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
       "blockClass": "carousel",
       "autoplay": {
         "timeout": 6000,
@@ -50,6 +52,21 @@
       }
     },
     "title": "Home - Slider"
+  },
+
+  "flex-layout.row#category-cards-title": {
+    "children": ["rich-text#category-cards-title"],
+    "props": {
+      "blockClass": ["shelf-title"]
+    },
+    "title": "Home - Navegue por Categorias - Título"
+  },
+  "rich-text#category-cards-title": {
+    "props": {
+      "text": "## Navegue por Categorias",
+      "blockClass": ["shelfTitle", "shelfTitle-1"]
+    },
+    "title": "Navegue por Categorias - Título"
   },
 
   "flex-layout.row#shelf-title1": {
@@ -98,7 +115,7 @@
     "props": {
       "fullWidth": false,
       "blockClass": ["shelf-banner"],
-      "marginBottom": 6
+      "marginBottom": 8
     },
     "title": "Prateleira 1 - Banner"
   },

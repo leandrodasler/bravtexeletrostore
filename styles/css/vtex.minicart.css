@@ -1,28 +1,101 @@
 .cartIcon {
   display: none;
 }
-.minicartWrapperContainer {
-  justify-content: center;
-  margin: 0 1rem;
-}
-@media (min-width: 64.1rem) {
-  .minicartWrapperContainer::after {
-    content: 'Carrinho';
-    margin-left: 0.5rem;
-    color: var(--color-primary);
-  }
-}
-.minicartIconContainer {
-  height: 25px;
-  width: 5px;
+.minicartContainer :global(.vtex-button__label) {
+  padding: 0;
 }
 .minicartContainer :global(.vtex-button) {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.minicartContainer :global(.vtex-button)::before {
+  content: '';
+  display: block;
   background-image: url('https://bravtexeletrostore.vtexassets.com/arquivos/shopping-cart.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   width: 28px;
   height: 28px;
+}
+@media (min-width: 64rem) {
+  .minicartContainer :global(.vtex-button)::after {
+    content: 'Carrinho';
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+  }
+}
+.openIconContainer {
+  padding: 12px 0;
+}
+.minicartQuantityBadgeDefault {
+  top: -20px !important;
+  right: 0 !important;
+}
+@media only screen and (max-width: 640px) {
+  .openIconContainer {
+    margin: 0;
+  }
+  .minicartContainer :global(.vtex-button) {
+    margin: 0 11px;
+  }
+}
+.minicartCheckoutButton {
+  padding-bottom: 75px;
+}
+
+:global(.vtex-product-list-0-x-productPrice) {
+  font-size: 20px;
+  color: var(--color-primary);
+}
+
+:global(.vtex-product-list-0-x-inputContainer) {
+  padding: 0;
+  width: 4rem;
+}
+
+:global(.vtex-checkout-summary-0-x-summaryItemContainer),
+:global(.vtex-checkout-summary-0-x-summaryItemLabel) {
+  color: var(--color-primary);
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  color: #a1a8b3;
+}
+
+
+
+/* 
+.cartIcon {
+  display: none;
+}
+.minicartWrapperContainer {
+  justify-content: center;
+  margin: 0 1rem;
+}
+.minicartIconContainer {
+  height: 25px;
+  width: 5px;
+}
+.minicartContainer :global(.vtex-button) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-image: url('https://bravtexeletrostore.vtexassets.com/arquivos/shopping-cart.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 28px;
+  height: 28px;
+}
+@media (min-width: 64.1rem) {
+  .minicartContainer :global(.vtex-button)::after {
+    content: 'Carrinho';
+    margin-left: 0.5rem;
+    color: var(--color-primary);
+  }
 }
 .openIconContainer {
   padding: 12px 0;
@@ -77,4 +150,4 @@
 
 :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
   color: #a1a8b3;
-}
+} */

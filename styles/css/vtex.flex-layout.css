@@ -137,6 +137,7 @@
   justify-content: center;
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .flexRowContent--category-menu-header {
@@ -425,7 +426,7 @@
   height: fit-content;
 }
 .flexRow--buybox-row {
-  border-top: #A1A8B3 solid 1px;
+  border-top: #a1a8b3 solid 1px;
   padding-top: 1rem;
 }
 @media screen and (min-width: 40em) {
@@ -742,4 +743,35 @@
   .flexRowContent--searchTitleDesktop {
     padding: 0;
   }
+}
+/* Category Cards */
+.flexCol--category-cards {
+  margin: 0.3rem 1rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.flexCol--category-cards:hover {
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+}
+.flexCol--category-cards:hover :global(.vtex-rich-text-0-x-paragraph) {
+  color: var(--color-primary);
+}
+.flexColChild--category-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexColChild--category-cards :global(.vtex-store-components-3-x-imageElement) {
+  height: 64px;
+  object-fit: cover;
+}
+.flexColChild--category-cards:first-child {
+  width: 100px;
+  height: 100px !important;
+  overflow: hidden;
 }

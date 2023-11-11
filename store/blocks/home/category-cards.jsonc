@@ -1,0 +1,206 @@
+{
+  "flex-layout.row#category-cards": {
+    "children": ["slider-layout#category-cards"],
+    "props": {
+      "blockClass": ["category-cards"],
+      "paddingTop": 8,
+      "paddingBottom": 6
+    },
+    "title": "Cards das categorias"
+  },
+
+  "slider-layout#category-cards": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 4,
+        "phone": 2
+      },
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left"
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "category-cards"
+    },
+    "children": [
+      "flex-layout.col#category-cards-1",
+      "flex-layout.col#category-cards-2",
+      "flex-layout.col#category-cards-3",
+      "flex-layout.col#category-cards-4",
+      "flex-layout.col#category-cards-5",
+      "flex-layout.col#category-cards-6",
+      "flex-layout.col#category-cards-7"
+    ]
+  },
+  "flex-layout.col#category-cards-1": {
+    "children": ["image#category-cards-1", "rich-text#category-cards-1"],
+    "props": {
+      "blockClass": "category-cards"
+    },
+    "title": "Card 1"
+  },
+  "flex-layout.col#category-cards-2": {
+    "children": ["image#category-cards-2", "rich-text#category-cards-2"],
+    "props": {
+      "blockClass": "category-cards"
+    },
+    "title": "Card 2"
+  },
+  "flex-layout.col#category-cards-3": {
+    "children": ["image#category-cards-3", "rich-text#category-cards-3"],
+    "props": {
+      "blockClass": "category-cards"
+    },
+    "title": "Card 3"
+  },
+  "flex-layout.col#category-cards-4": {
+    "children": ["image#category-cards-4", "rich-text#category-cards-4"],
+    "props": {
+      "blockClass": "category-cards"
+    },
+    "title": "Card 4"
+  },
+  "flex-layout.col#category-cards-5": {
+    "children": ["image#category-cards-5", "rich-text#category-cards-5"],
+    "props": {
+      "blockClass": "category-cards"
+    },
+    "title": "Card 5"
+  },
+  "flex-layout.col#category-cards-6": {
+    "children": ["image#category-cards-6", "rich-text#category-cards-6"],
+    "props": {
+      "blockClass": "category-cards"
+    },
+    "title": "Card 6"
+  },
+  "flex-layout.col#category-cards-7": {
+    "children": ["image#category-cards-7", "rich-text#category-cards-7"],
+    "props": {
+      "blockClass": "category-cards"
+    },
+    "title": "Card 7"
+  },
+  "image#category-cards-1": {
+    "props": {
+      "src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/b67424ab-f7f2-4710-974a-5c4d0a327724___8e19eb1245bfc5d3411909683e9f7900.png",
+      "link": {
+        "title": "Eletrodomésticos",
+        "url": "/eletrodomesticos"
+      }
+    },
+    "title": "Card 1 - Imagem"
+  },
+  "rich-text#category-cards-1": {
+    "props": {
+      "text": "[Eletrodomésticos](/eletrodomesticos)",
+      "blockClass": "category-cards"
+    },
+    "title": "Card 1 - Texto"
+  },
+  "image#category-cards-2": {
+    "props": {
+      "src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/8368040a-29d9-4335-a7dc-baae8762d32c___d5450c3df4fc3328782eef3e2476f37c.png",
+      "link": {
+        "title": "Vídeo",
+        "url": "/tvs-e-video"
+      }
+    },
+    "title": "Card 2 - Imagem"
+  },
+  "rich-text#category-cards-2": {
+    "props": {
+      "text": "[Vídeo](/tvs-e-video)",
+      "blockClass": "category-cards"
+    },
+    "title": "Card 2 - Texto"
+  },
+  "image#category-cards-3": {
+    "props": {
+      "src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/acd8b727-dbf9-416f-9d78-605502be0bc1___cf34e941962d8e51c196d650f087e4ae.png",
+      "link": {
+        "title": "Smartphones",
+        "url": "/eletronicos/smartphones"
+      }
+    },
+    "title": "Card 3 - Imagem"
+  },
+  "rich-text#category-cards-3": {
+    "props": {
+      "text": "[Smartphones](/eletronicos/smartphones)",
+      "blockClass": "category-cards"
+    },
+    "title": "Card 3 - Texto"
+  },
+  "image#category-cards-4": {
+    "props": {
+      "src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/a448683a-edfb-40e7-a633-9304fdf6baab___a7628c7ddbbfe7ab6f4fde65a253f509.png",
+      "link": {
+        "title": "Áudio",
+        "url": "/eletronicos/acessorios"
+      }
+    },
+    "title": "Card 4 - Imagem"
+  },
+  "rich-text#category-cards-4": {
+    "props": {
+      "text": "[Áudio](/eletronicos/acessorios)",
+      "blockClass": "category-cards"
+    },
+    "title": "Card 4 - Texto"
+  },
+  "image#category-cards-5": {
+    "props": {
+      "src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/9cf6af5d-c5e1-4dde-a0ee-73e07f7d09d4___2a9dc7f5ca44083a2d2d5db5728ecdad.png",
+      "link": {
+        "title": "Eletroportáteis",
+        "url": "/Eletroportateis"
+      }
+    },
+    "title": "Card 5 - Imagem"
+  },
+  "rich-text#category-cards-5": {
+    "props": {
+      "text": "[Eletroportáteis](/Eletroportateis)",
+      "blockClass": "category-cards"
+    },
+    "title": "Card 5 - Texto"
+  },
+  "image#category-cards-6": {
+    "props": {
+      "src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/113a4710-44a5-4adf-80f5-1f123a670cdb___dfb6d8d0f046135cdae2d61bbfb65fed.png",
+      "link": {
+        "title": "Utensílios",
+        "url": "/utilidades-domesticas"
+      }
+    },
+    "title": "Card 6 - Imagem"
+  },
+  "rich-text#category-cards-6": {
+    "props": {
+      "text": "[Utensílios](/utilidades-domesticas)",
+      "blockClass": "category-cards"
+    },
+    "title": "Card 6 - Texto"
+  },
+  "image#category-cards-7": {
+    "props": {
+      "src": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/d907354d-4ea2-4947-8023-882bb04349b6___399fb86ff73b48de7b187bfd993eabfb.png",
+      "link": {
+        "title": "Games",
+        "url": "/eletronicos/videogame"
+      }
+    },
+    "title": "Card 7 - Imagem"
+  },
+  "rich-text#category-cards-7": {
+    "props": {
+      "text": "[Games](/eletronicos/videogame)",
+      "blockClass": "category-cards"
+    },
+    "title": "Card 7 - Texto"
+  }
+}
