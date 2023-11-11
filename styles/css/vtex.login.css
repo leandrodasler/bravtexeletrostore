@@ -1,113 +1,86 @@
-:global(.vtex-login-2-x-label):before {
-	content: 'Bem vindo,';
-	display: block;
-	color: #b2ada8;
-	font-family: 'Nunito', sans-serif;
-	font-weight: normal;
-}
 :global(.vtex-login-2-x-container) {
-	z-index: 2;
+  z-index: 2;
+  justify-content: center;
+  margin-left: 1rem;
 }
 :global(.vtex-login-2-x-container) :global(.vtex-button__label):before {
-	content: '';
-	background-image: url("https://bravtexeletrostore.vtexassets.com/arquivos/user.svg");
-	background-repeat: no-repeat;
-	background-position: 50%;
-	background-size: contain;
-	padding: 0;
-	height: 26px;
-	width: 26px;
-	margin-top: 0;
+  content: '';
+  background-image: url('https://bravtexeletrostore.vtexassets.com/arquivos/user.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  padding: 0;
+  height: 26px;
+  width: 26px;
+  margin-top: 0;
 }
 :global(.vtex-login-2-x-label) {
-	white-space: nowrap;
-	font-size: 14px;
-	font-weight: bold;
-	color: #003087;
-	text-align: left;
-	text-transform: none;
+  font-size: 1rem;
+  color: #003087;
+  text-align: left;
+  text-transform: none;
 }
 div[class*='vtex-login-2-x-container'] :global(.vtex-button__label) {
-	padding: 0 !important;
-	margin-left: 18px;
-	text-transform: initial;
-}
-div[class*='vtex-login-2-x-container'] :global(.relative) {
-	margin: auto;
+  padding: 0 !important;
 }
 h3[class*='vtex-login-2-x-formTitle'] {
-	text-align: start;
-	border-bottom: 1px solid #dddddd;
-	border-radius: 0;
-	padding-bottom: 20px;
+  text-align: start;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 0;
+  padding-bottom: 20px;
 }
 div[class*='vtex-login-2-x-accessCodeOptionBtn'] button:global(.vtex-button) div[class*='vtex-button__label'],
 div[class*='vtex-login-2-x-emailPasswordOptionBtn'] button:global(.vtex-button) div[class*='vtex-button__label'] {
-	padding: 0;
+  padding: 0;
 }
 div[class*='vtex-login-2-x-accessCodeOptionBtn'] button:global(.vtex-button),
 div[class*='vtex-login-2-x-emailPasswordOptionBtn'] button:global(.vtex-button) {
-	border: 1px solid #ccc6c0;
-	background-color: #ffffff;
-	color: #000000;
-	text-transform: none;
+  border: 1px solid #ccc6c0;
+  background-color: #ffffff;
+  color: #000000;
+  text-transform: none;
 }
 div[class*='vtex-login-2-x-emailPasswordOptionBtn'] button:global(.vtex-button):hover {
-	border: 1px solid #003087;
-	background-color: #003087;
-	color: #003087;
+  border: 1px solid #003087;
+  background-color: #003087;
+  color: #003087;
 }
 div[class*='vtex-login-2-x-options'] {
-	min-width: 17rem;
+  min-width: 17rem;
 }
 div[class*='vtex-login-2-x-arrowUp'] {
-	width: 1.5rem;
+  width: 1.5rem;
 }
 span[class*='vtex-login-2-x-profile'] {
-	white-space: nowrap;
-	text-transform: initial;
-	text-align: start;
-	font-size: 14px;
-	align-items: flex-end;
-	font-weight: bold;
-	color: #003087;
+  white-space: nowrap;
+  text-transform: initial;
+  text-align: start;
+  color: #003087;
+  font-size: 1rem;
 }
 @media screen and (min-width: 1025px) {
-	.container :global(.vtex-button__label) span div div {
-		padding-top: 5px;
-		width: 100%;
-		display: block;
-	}
-	.container :global(.vtex-button) {
-		padding: 0;
-	}
-	.container :global(.vtex-button):focus {
-		background: transparent;
-	}
-}
-@media only screen and (max-width: 1025px) {
-	.container :global(.vtex-button__label) {
-		margin: 0 18px 0 0 !important;
-	}
+  .container :global(.vtex-button):focus {
+    background: transparent;
+  }
 }
 
 .formTitle {
-	text-align: center !important;
-	font-size: 18px;
-	font-weight: bold;
+  text-align: center !important;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .accessCodeOptionBtn :global(.vtex-button) {
-	border: none !important;
-	color: #003087 !important;
-	font-size: 14px;
+  border: none !important;
+  color: #003087 !important;
+  font-size: 14px;
 }
 
-.emailPasswordOptionBtn :global(.vtex-button){
-	background-color: #003087 !important;
-	color: white !important;
-	font-weight: bold;
-	text-transform: uppercase !important;
-	border: 1px solid #003087 !important;
-	font-size: 14px;
+.emailPasswordOptionBtn :global(.vtex-button) {
+  background-color: #003087 !important;
+  color: white !important;
+  font-weight: bold;
+  text-transform: uppercase !important;
+  border: 1px solid #003087 !important;
+  font-size: 14px;
 }

@@ -24,7 +24,7 @@
 	"flex-layout.row#shelf-banner-mobile": {
 		"children": ["image#shelf-banner-mobile"],
 		"props": {
-			"width": "25%",
+			"fullWidth": true,
 			"blockClass": ["shelf-banner"]
 		},
 		"title": "Prateleira 1 - Banner"

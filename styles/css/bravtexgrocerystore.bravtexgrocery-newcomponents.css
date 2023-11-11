@@ -26,7 +26,7 @@
   font-size: 16px;
   font-weight: bold;
   color: #003087;
-  width: 106px;
+  width: 100%;
   height: 48px;
   border-left: none;
   border-right: none;
@@ -91,6 +91,11 @@
 .containerWholesaleButton :global(.vtex-button__label) {
   padding: 0 !important;
 }
+.contentAddedToCartTxt {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 :global(.vtex-product-summary-2-x-containerNormal) .containerWholesalePrice .wholesaleInformationsChecked {
   width: 70%;
 }
@@ -100,41 +105,6 @@
 }
 
 @media only screen and (max-width: 640px) {
-  :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf)
-    .contentQuantity
-    :global(.vtex-numeric-stepper__input) {
-    width: 100%;
-  }
-  :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf)
-    .contentQuantity
-    :global(.vtex-numeric-stepper__plus-button),
-  :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf)
-    .contentQuantity
-    :global(.vtex-numeric-stepper__minus-button) {
-    height: 30px;
-  }
-  :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf)
-    .contentQuantity
-    :global(.vtex-numeric-stepper__input) {
-    height: 30px;
-  }
-  :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf) .contentAddedToCartTxt {
-    font-size: 12px;
-  }
-  :global(.vtex-shelf-1-x-shelfContentContainer--pdp-related-shelf) .containerQuantity,
-  :global(.vtex-slider-layout-0-x-sliderLayoutContainer) .containerQuantity,
-  :global(.vtex-search-result-3-x-galleryItem) .containerQuantity {
-    height: 30px;
-  }
-  :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf)
-    .contentQuantity
-    :global(.vtex-numeric-stepper__plus-button__text),
-  :global(.vtex-flex-layout-0-x-flexRow--add-to-cart-btn-container-shelf)
-    .contentQuantity
-    :global(.vtex-numeric-stepper__minus-button__text) {
-    font-size: 22px;
-  }
-
   /* Inner Component*/
   :global(.vtex-product-summary-2-x-containerNormal) .containerWholesalePrice .wholePriceActiveCheckMark,
   :global(.vtex-product-summary-2-x-containerNormal) .containerWholesalePrice .innerSVGButtonContainer {

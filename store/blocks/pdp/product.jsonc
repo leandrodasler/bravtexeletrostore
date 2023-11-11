@@ -355,7 +355,7 @@
     "children": ["shelf.relatedProducts#pdp-shelf-1"]
   },
   "shelf.relatedProducts#pdp-shelf-1": {
-    "blocks": ["product-summary.shelf#pdp-shelf"],
+    "blocks": ["product-summary.shelf.product-comparison#searchs"],
     "props": {
       "blockClass": "pdp-related-products",
       "recommendation": "suggestions",
@@ -363,7 +363,7 @@
         "maxItems": 10,
         "itemsPerPage": 4,
         "minItemsPerPage": 1,
-        "scroll": "ONE_BY_PAGE",
+        "scroll": "ONE_BY_ONE",
         "arrows": true,
         "showTitle": true,
         "paginationDotsVisibility": "never",
@@ -379,7 +379,7 @@
     "children": ["shelf.relatedProducts#pdp-shelf-2"]
   },
   "shelf.relatedProducts#pdp-shelf-2": {
-    "blocks": ["product-summary.shelf#pdp-shelf"],
+    "blocks": ["product-summary.shelf.product-comparison#searchs"],
     "props": {
       "blockClass": "pdp-related-products",
       "recommendation": "similars",
@@ -387,7 +387,7 @@
         "maxItems": 10,
         "itemsPerPage": 4,
         "minItemsPerPage": 1,
-        "scroll": "ONE_BY_PAGE",
+        "scroll": "ONE_BY_ONE",
         "arrows": true,
         "showTitle": true,
         "paginationDotsVisibility": "never",
@@ -403,7 +403,7 @@
     "children": ["shelf.relatedProducts#pdp-shelf-3"]
   },
   "shelf.relatedProducts#pdp-shelf-3": {
-    "blocks": ["product-summary.shelf#pdp-shelf"],
+    "blocks": ["product-summary.shelf.product-comparison#searchs"],
     "props": {
       "blockClass": "pdp-related-products",
       "recommendation": "view",
@@ -411,7 +411,7 @@
         "maxItems": 10,
         "itemsPerPage": 4,
         "minItemsPerPage": 1,
-        "scroll": "ONE_BY_PAGE",
+        "scroll": "ONE_BY_ONE",
         "arrows": true,
         "showTitle": true,
         "paginationDotsVisibility": "never",

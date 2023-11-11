@@ -76,19 +76,19 @@
       "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar#biggy",
-      "flex-layout.col#spacer",
-      "flex-layout.row#icons-desktop"
-    ]
+    "children": ["flex-layout.col#logo-desktop", "flex-layout.col#search-bar", "flex-layout.row#icons-desktop"]
+  },
+  "flex-layout.col#search-bar": {
+    "children": ["search-bar#biggy"],
+    "props": {
+      "width": "grow"
+    }
   },
   "flex-layout.row#icons-desktop": {
     "props": {
       "blockClass": "icons-header"
     },
-    "children": ["menu-item#wish-list", "login", "minicart.v2"]
+    "children": ["login", "minicart.v2"]
   },
   "login": {
     "props": {
@@ -97,7 +97,7 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "senha",
       "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": "Entre ou Cadastre-se"
+      "iconLabel": "Entrar"
     }
   },
   "login#mobile": {
@@ -117,29 +117,28 @@
     },
     "children": ["logo#desktop"]
   },
-  "menu-item#wish-list": {
-    "props": {
-      "blockClass": "wishlist-custom",
-      "id": "menu-item-wish-list",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/wishlist",
-        "noFollow": false,
-        "tagTitle": "minhas listas"
-      },
-      "iconProps": {
-        "id": "list-icon",
-        "size": 32,
-        "viewBox": "-3 -3 24 24",
-        "activeClassName": "wishlist-active-heart",
-        "mutedClassName": "wishlist-muted-heart"
-      },
-      "iconToTheLeft": true
-    }
-  },
-
+  // "menu-item#wish-list": {
+  //   "props": {
+  //     "blockClass": "wishlist-custom",
+  //     "id": "menu-item-wish-list",
+  //     "type": "custom",
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": "/wishlist",
+  //       "noFollow": false,
+  //       "tagTitle": "minhas listas"
+  //     },
+  //     "iconProps": {
+  //       "id": "list-icon",
+  //       "size": 32,
+  //       "viewBox": "-3 -3 24 24",
+  //       "activeClassName": "wishlist-active-heart",
+  //       "mutedClassName": "wishlist-muted-heart"
+  //     },
+  //     "iconToTheLeft": true
+  //   }
+  // },
   "flex-layout.row#4-desktop": {
     "props": {
       "blockClass": "category-menu-header",
@@ -172,32 +171,9 @@
       "flex-layout.row#demo-store-warning",
       "flex-layout.row#1-mobile",
       "sticky-layout#1-mobile",
-      "sticky-layout#1-tablet",
       "flex-layout.row#3-mobile"
     ],
     "title": "Header - Mobile"
-  },
-  "sticky-layout#1-tablet": {
-    "props": {
-      "blockClass": "sticky-tablet"
-    },
-    "children": ["flex-layout.row#main-tablet"],
-    "title": "Sticky Layout - Tablet"
-  },
-  "flex-layout.row#main-tablet": {
-    "children": ["drawer", "logo#mobile", "flex-layout.col#spacer", "flex-layout.row#icons-tablet"],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "flex-layout.row#icons-tablet": {
-    "props": {
-      "blockClass": "icons-header"
-    },
-    "children": ["menu-item#wish-list", "login#mobile", "minicart.v2"]
   },
   "sticky-layout#1-mobile": {
     "props": {
@@ -234,40 +210,15 @@
   "flex-layout.row#3-mobile": {
     "props": {
       "blockClass": "row-searchbar",
-      "horizontalAlign": "center",
-      "fullWidth": true
+      "horizontalAlign": "center"
     },
     "children": ["search-bar#biggy"]
   },
-
   "flex-layout.row#icons-mobile": {
     "props": {
       "blockClass": "icons-header"
     },
-    "children": ["menu-item#wish-list", "login#mobile", "minicart.v2"]
-  },
-  "menu-item#wish-list-mobile": {
-    "props": {
-      "blockClass": "wishlist-custom",
-      "id": "menu-item-wish-list",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/wishlist",
-        "noFollow": false,
-        "tagTitle": "minhas listas",
-        "text": ""
-      },
-      "iconProps": {
-        "id": "list-icon",
-        "size": 32,
-        "viewBox": "-3 -3 22 20",
-        "activeClassName": "wishlist-active-heart",
-        "mutedClassName": "wishlist-muted-heart"
-      },
-      "iconToTheLeft": true
-    }
+    "children": ["login#mobile", "minicart.v2"]
   },
   "drawer": {
     "children": ["menu#drawer"]

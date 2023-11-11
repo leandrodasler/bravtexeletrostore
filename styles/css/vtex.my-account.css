@@ -402,11 +402,6 @@ div[class*='vtex-profile-form-3-x-toggleBusinessButtonWrapper'] :global(.vtex-bu
 	text-transform: inherit;
 	max-width: 330px !important;
 }
-div[class*='vtex-pageHeader__children'] button:global(.vtex-button) {
-	background-color: #FEDDE8;
-	color: #fff;
-	border: 1px solid #FEDDE8;
-}
 form[class*='vtex-profile-form-3-x-profileContainer']
 	button[class*='vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-small t-action--small bg-action-primary b--action-primary c-on-action-primary hover-bg-action-primary hover-b--action-primary hover-c-on-action-primary pointer w-100'] {
 	background-color: #FEDDE8;
@@ -1605,7 +1600,7 @@ span[class*='vtex-my-orders-app-3-x-orderProductQuantityValue']
 	}
 	:global(.vtex-account) > div {
 		padding: 30px 5% 30px;
-		/* max-width: 1238px !important; */
+		/* max-width: var(--container-max-width) !important; */
 		margin: 0 auto;
 	}
 	/*Título da página*/

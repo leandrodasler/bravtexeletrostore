@@ -1,12 +1,5 @@
 .styledLinkContent--wishlist-custom {
-  align-items: center;
-  font-size: 14px;
-  font-weight: bold;
-  color: #003087;
-  max-width: 90px;
-}
-.styledLinkIcon--wishlist-custom {
-  margin-right: 8px;
+  justify-content: center;
 }
 .menuItem--location-menu {
   display: flex;
@@ -65,9 +58,6 @@
   	margin: 0 1.3rem;
   	max-height: 39px;
 	width: 100%;
-}
-.styledLinkContainer--wishlist-custom {
-  margin: 0 9px;
 }
 .styledLinkContainer--category-menu {
   margin: 0 39px;
@@ -253,9 +243,6 @@
   /*end*/
 }
 @media only screen and (max-width: 640px) {
-  .styledLinkContainer--wishlist-custom {
-    margin: 0;
-  }
   .menuItem--footer-menu-items {
     width: 100%;
     justify-content: flex-start;

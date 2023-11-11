@@ -1,6 +1,17 @@
 .cartIcon {
   display: none;
 }
+.minicartWrapperContainer {
+  justify-content: center;
+  margin: 0 1rem;
+}
+@media (min-width: 64.1rem) {
+  .minicartWrapperContainer::after {
+    content: 'Carrinho';
+    margin-left: 0.5rem;
+    color: var(--color-primary);
+  }
+}
 .minicartIconContainer {
   height: 25px;
   width: 5px;
@@ -35,9 +46,6 @@
     font-weight: bold;
     color: #003087;
     white-space: nowrap;
-  }
-  .minicartWrapperContainer {
-    width: 97px !important;
   }
 }
 @media only screen and (max-width: 640px) {
