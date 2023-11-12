@@ -21,7 +21,7 @@
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 328,
+      "height": 300,
       "images": [
         {
           "image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/63a5955d-de4a-4fde-adfe-4bd79929995a___6115bf75cfc651a7c0d7d6a063c797c6.png",
