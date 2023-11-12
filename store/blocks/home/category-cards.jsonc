@@ -3,8 +3,7 @@
     "children": ["slider-layout#category-cards"],
     "props": {
       "blockClass": ["category-cards"],
-      "paddingTop": 8,
-      "paddingBottom": 6
+      "paddingBottom": 8
     },
     "title": "Cards das categorias"
   },

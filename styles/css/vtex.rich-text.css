@@ -60,12 +60,13 @@
 .headingLevel2--shelfTitle {
   font-weight: 600;
   margin: 0;
+  text-align: center;
 }
-@media (min-width: 64.1rem) {
+/* @media (min-width: 64.1rem) {
   .headingLevel2--shelfTitle {
-    text-align: center;
+    
   }
-}
+} */
 .container--deals .paragraph {
   margin: 0;
   font-weight: 700;
