@@ -373,7 +373,7 @@
   left: 0;
   bottom: unset;
   right: unset;
-  background: #fedde8;
+  background: rgba(0, 48, 135, 0.20);
   border-radius: 4px;
   font-weight: 700;
   font-size: 12px;
