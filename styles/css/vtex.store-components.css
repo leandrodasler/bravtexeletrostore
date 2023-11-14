@@ -215,10 +215,6 @@
   font-size: 30px;
 }
 
-.imageElement--carousel {
-  border-radius: 16px;
-}
-
 :global(.vtex-seller-selector-0-x-linkSellerContainer) {
   margin-right: 1rem;
 }
