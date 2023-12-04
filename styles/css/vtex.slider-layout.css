@@ -2,15 +2,14 @@
   flex-wrap: wrap;
   justify-content: end;
 }
-.sliderLayoutContainer--carousel {
-  background-color: #142032;
+/* .sliderLayoutContainer--carousel {
   min-height: 200px;
 }
 @media (min-width: 1026px) {
   .sliderLayoutContainer--carousel {
     min-height: 300px;
   }
-}
+} */
 .imageElementLink {
   line-height: 0;
 }

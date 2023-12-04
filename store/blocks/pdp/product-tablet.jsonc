@@ -1,6 +1,7 @@
 {
 	"responsive-layout.tablet#pdp": {
 		"children": [
+			// "add-to-cart-service-interceptor",
 			"flex-layout.row#product-breadcrumb",
 			"flex-layout.row#product-main-tablet",
 			"flex-layout.row#shelf-pdp-1",

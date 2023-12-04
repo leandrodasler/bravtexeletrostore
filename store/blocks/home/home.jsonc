@@ -5,8 +5,7 @@
   /* Estrutura de ResponsiveLayoutsHome*/
   "responsive-layout.desktop#home": {
     "children": [
-      "list-context.image-list#demo",
-      // "flex-layout.row#deals",
+      "flex-layout.row#banner-top",
       "flex-layout.row#banner-gift-list",
       "flex-layout.row#category-cards-title",
       "flex-layout.row#category-cards",
@@ -18,22 +17,51 @@
     ],
     "title": "Home - Desktop"
   },
+  "flex-layout.row#banner-top": {
+    "title": "Home - Carrossel",
+    "children": ["list-context.image-list#demo"]
+  },
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
     "props": {
-      "height": 300,
       "images": [
         {
-          "image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/63a5955d-de4a-4fde-adfe-4bd79929995a___6115bf75cfc651a7c0d7d6a063c797c6.png",
-          "mobileImage": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/b0f43b38-9579-4624-9627-aede40ffc27c___035e372b92eeeedbce8e74ed94fd8656.png"
+          "image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/52ec6b9e-bab0-4e30-a76c-33eb7f2c47dd___f72b603d0d8447baa61903f911b83ee9.jpg",
+          "mobileImage": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/bcef2639-a2a9-472b-b987-cb0dc0eb63ab___106c36d1ee6025c4815b604936655e21.jpg",
+          "description": "Geladeiras",
+          "link": {
+            "url": "/eletrodomesticos/geladeira",
+            "title": "Geladeiras"
+          }
         },
         {
-          "image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/9e8de3bc-307c-4035-8ac6-1877252f1c41___a66fdedf26a71701a54783b2c6d62b3e.png",
-          "mobileImage": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/66f95bfe-cc48-4684-9fb8-358a7f258c36___fd4d04eb76313f6e848f62e5e9548ae0.png"
+          "image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/cba18aef-a59d-4043-aa3a-0698a241568a___a7edaab41bcfbac5a90a5b08e14ad0d3.jpg",
+          "mobileImage": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/66f95bfe-cc48-4684-9fb8-358a7f258c36___fd4d04eb76313f6e848f62e5e9548ae0.png",
+          "description": "TVs",
+          "link": {
+            "url": "/TVs-e-Video/TVs",
+            "title": "TVs"
+          }
+        },
+        {
+          "image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/4869aca2-b59b-43ce-930a-27f1e7349c6a___b93e598d3e30a23ec4efba7d94ce7fed.jpg",
+          "mobileImage": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/b0f43b38-9579-4624-9627-aede40ffc27c___035e372b92eeeedbce8e74ed94fd8656.png",
+          "description": "Frete Grátis",
+          "link": {
+            "url": "/eletrodomesticos/fogoes",
+            "title": "Frete Grátis"
+          }
+        },
+        {
+          "image": "https://bravtexeletrostore.vtexassets.com/assets/vtex.file-manager-graphql/images/51968c72-e391-49b9-8d25-148cb170e22e___14f67ff80b0ea38529c170b0ec2828b7.jpg",
+          "description": "Listas de presentes",
+          "link": {
+            "url": "https://eletrolists.myvtex.com/",
+            "title": "Listas de presentes"
+          }
         }
       ]
-    },
-    "title": "Home - Carrossel"
+    }
   },
   "slider-layout#demo-images": {
     "props": {
