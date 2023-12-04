@@ -25,7 +25,7 @@
   display: block;
   font-size: 20px;
   line-height: 20px;
-  color: #003087;
+  color: var(--color-primary);
   margin-bottom: 0;
   padding-bottom: 5px;
   border-bottom: 1px solid #e7e9ee;
@@ -44,7 +44,7 @@
 }
 
 .addressLink {
-  color: #003087;
+  color: var(--color-primary);
 }
 
 .backlinkContainer {
@@ -54,7 +54,7 @@
 .storeName {
   font-size: 32px;
   font-weight: 700;
-  color: #003087;
+  color: var(--color-primary);
 }
 
 .storeName,

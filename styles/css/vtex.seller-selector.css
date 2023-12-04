@@ -78,7 +78,7 @@
 .sellerPrice,
 .sellerShipping .currencyContainer {
   order: 999;
-  color: #003087;
+  color: var(--color-primary);
   font-weight: bold;
 }
 

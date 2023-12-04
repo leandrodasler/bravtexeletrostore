@@ -7,10 +7,10 @@
   background-color: #ffffff;
 }
 .flexRow--menu-link {
-  background-color: #003087;
+  background-color: var(--color-primary);
 }
 .flexRowContent--menu-link {
-  background-color: #003087;
+  background-color: var(--color-primary);
 }
 .flexRowContent--menu-link {
   max-width: 1440px;
@@ -253,7 +253,7 @@
 .flexRowContent--contact :global(.vtex-input__label),
 .flexRowContent--contact :global(.vtex-textarea__label) {
   font-size: 1rem;
-  color: #003087;
+  color: var(--color-primary);
 }
 .flexRowContent--contact :global(.vtex-input),
 .flexRowContent--contact :global(.vtex-textarea) {
@@ -275,7 +275,7 @@
   white-space: nowrap;
 }
 .flexColChild--product-info-content .flexRow--buy-btn-container :global(.vtex-button):hover {
-  background-color: #003087;
+  background-color: var(--color-primary);
 }
 .flexCol--product-info-content {
   padding-left: 48px;

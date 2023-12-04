@@ -1,5 +1,5 @@
 .caretIcon {
-  color: #003087;
+  color: var(--color-primary);
   width: 12px;
   height: 12px;
 }
@@ -59,7 +59,7 @@
 }
 
 .title--pdp-related-products {
-  color: #003087;
+  color: var(--color-primary);
 }
 .slide--pdp-related-products {
   padding-top: 0.3rem;

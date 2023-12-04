@@ -17,7 +17,7 @@
 	display: none;
 }
 .menuLink {
-	color: #003087;
+	color: var(--color-primary);
 	display: flex;
 	border-top: 1px solid #cccccc;
 	margin: 0;
@@ -32,7 +32,7 @@
 	line-height: 20px;
 	letter-spacing: normal;
 	text-align: left;
-	color: #003087;
+	color: var(--color-primary);
 	padding: 0 0 0 20px;
 	margin: 0;
 	display: flex;
@@ -48,9 +48,9 @@
 	padding: 30px 20px 20px;
 }
 .menuLinks a[class*='b--action-primary'] {
-	color: #003087;
+	color: var(--color-primary);
 	background: #FFFFFF;
-	border-color: #003087;
+	border-color: var(--color-primary);
 	font-weight: bold;
 	text-transform: capitalize;
 }
@@ -193,7 +193,7 @@ div[class*='vtex-my-account-1-x-userInfo'] {
 	margin: 0;
 	border: 0;
 	outline: none;
-	color: #003087;
+	color: var(--color-primary);
 	font-weight: bold;
 	font-size: 16px;
 }
@@ -205,7 +205,7 @@ div[class*='vtex-my-account-1-x-userInfo'] {
 	padding: 12px 0 0 !important;
 }
 :global(.vtex-pageHeader-link__container) :global(.vtex-button__label) span {
-	color: #003087;
+	color: var(--color-primary);
 	margin: 0 !important;
 	text-transform: initial;
 	font-size: 14px;

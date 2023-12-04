@@ -102,7 +102,7 @@
 }
 .minicartQuantityBadgeDefault {
   color: #fff7f2;
-  background: #003087;
+  background: var(--color-primary);
   right: 4px;
   top: -10px;
   width: 12px;
@@ -117,7 +117,7 @@
     padding-left: 8px;
     font-size: 14px;
     font-weight: bold;
-    color: #003087;
+    color: var(--color-primary);
     white-space: nowrap;
   }
 }
@@ -135,7 +135,7 @@
 
 :global(.vtex-product-list-0-x-productPrice) {
   font-size: 20px;
-  color: #003087;
+  color: var(--color-primary);
 }
 
 :global(.vtex-product-list-0-x-inputContainer) {
@@ -145,7 +145,7 @@
 
 :global(.vtex-checkout-summary-0-x-summaryItemContainer),
 :global(.vtex-checkout-summary-0-x-summaryItemLabel) {
-  color: #003087;
+  color: var(--color-primary);
 }
 
 :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
