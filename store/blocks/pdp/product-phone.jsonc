@@ -1,7 +1,7 @@
 {
   "responsive-layout.phone#pdp": {
     "children": [
-      // "add-to-cart-service-interceptor",
+      "add-to-cart-service-interceptor",
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main-mobile",
       "flex-layout.row#shelf-pdp-1",

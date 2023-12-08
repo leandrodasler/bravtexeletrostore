@@ -8,5 +8,8 @@
   "store.product.product-comparison": {
     "around": ["comparison-context-wrapper"],
     "allowed": ["product-comparison-drawer"]
+  },
+  "query-string-condition": {
+    "component": "QueryStringCondition"
   }
 }

@@ -2,14 +2,14 @@
 	"add-to-cart-button": {
 		"props": {
 			"addToCartFeedback": "customEvent",
-			"customPixelEventId": "add-to-cart-button",
+			// "customPixelEventId": "add-to-cart-button",
 			"text": "Adicionar"
 		}
 	},
 
 	"minicart.v2": {
 		"props": {
-			// "customPixelEventId": "add-to-cart-button"
+			"customPixelEventId": "add-to-cart-button"
 		},
 		"children": ["minicart-base-content"]
 	},

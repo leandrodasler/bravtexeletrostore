@@ -78,8 +78,8 @@
   "add-to-cart-button#shelf": {
     "props": {
       "blockClass": "shelfs-add-to-cart-btn",
-      "addToCartFeedback": "customEvent",
-      "customPixelEventId": "add-to-cart-button",
+      // "addToCartFeedback": "customEvent",
+      // "customPixelEventId": "add-to-cart-button",
       "text": "ADICIONAR"
     }
   },

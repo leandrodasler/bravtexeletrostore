@@ -139,7 +139,3 @@
     padding: 8px 12px;
   }
 }
-
-.addToCartInterceptorItems {
-  --shadow-color-selected: var(--color-primary);
-}

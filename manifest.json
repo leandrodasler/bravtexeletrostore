@@ -3,6 +3,7 @@
   "name": "bravtexeletrostore-theme",
   "version": "6.0.3",
   "builders": {
+    "react": "3.x",
     "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
@@ -67,7 +68,8 @@
     "bravtexgrocerystore.bravtexgrocery-newcomponents": "0.x",
     "vtex.seller-selector": "0.x",
     "vtex.product-comparison": "0.x",
-    "vtex.condition-layout": "2.x"
+    "vtex.condition-layout": "2.x",
+    "ssesandbox04.pdp-sku-services": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

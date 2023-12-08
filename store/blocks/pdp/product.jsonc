@@ -9,7 +9,7 @@
   },
   "responsive-layout.desktop#pdp": {
     "children": [
-      // "add-to-cart-service-interceptor",
+      "add-to-cart-service-interceptor",
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#shelf-pdp-1",
@@ -17,6 +17,11 @@
       "flex-layout.row#shelf-pdp-3"
     ],
     "title": "PdP - Desktop"
+  },
+  "add-to-cart-service-interceptor": {
+    "props": {
+      "pixelEventIdOnSelect": "add-to-cart-button"
+    }
   },
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]
@@ -307,8 +312,8 @@
   "add-to-cart-button#pdp": {
     "props": {
       "blockClass": "pdp-add-to-cart-btn",
-      "addToCartFeedback": "customEvent",
-      "customPixelEventId": "add-to-cart-button",
+      // "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart",
       "text": "ADICIONAR"
     },
     "title": "Botão - Adicionar ao Carrinho"
