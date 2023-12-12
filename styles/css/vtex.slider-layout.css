@@ -10,6 +10,10 @@
     min-height: 300px;
   }
 } */
+.imageElement--carousel {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
 .imageElementLink {
   line-height: 0;
 }

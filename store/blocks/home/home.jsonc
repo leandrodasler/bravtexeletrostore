@@ -47,19 +47,31 @@
   },
   "flex-layout.row#banner-top-param-1": {
     "title": "Home - Carrossel Color 1",
-    "children": ["list-context.image-list#demo"]
+    "children": ["list-context.image-list#demo"],
+    "props": {
+      "marginTop": 8
+    }
   },
   "flex-layout.row#banner-top-param-2": {
     "title": "Home - Carrossel Color 2",
-    "children": ["list-context.image-list#demo"]
+    "children": ["list-context.image-list#demo"],
+    "props": {
+      "marginTop": 8
+    }
   },
   "flex-layout.row#banner-top-param-3": {
     "title": "Home - Carrossel Color 3",
-    "children": ["list-context.image-list#demo"]
+    "children": ["list-context.image-list#demo"],
+    "props": {
+      "marginTop": 8
+    }
   },
   "flex-layout.row#banner-top": {
     "title": "Home - Carrossel Default",
-    "children": ["list-context.image-list#demo"]
+    "children": ["list-context.image-list#demo"],
+    "props": {
+      "marginTop": 8
+    }
   },
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],

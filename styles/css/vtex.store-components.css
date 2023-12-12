@@ -88,7 +88,12 @@
   letter-spacing: 0.015em;
 }
 :global(.vtex-flex-layout-0-x-flexColChild--product-info-content) .imageElement--static-img {
-  padding: 20px 0 30px 0;
+  padding: 20px 0 
+  30px 0;
+}
+.imageElement--banner-sales {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 .imageElement--logo-footer {
   max-width: 38px;
