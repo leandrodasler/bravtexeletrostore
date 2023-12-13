@@ -2,14 +2,12 @@
   flex-wrap: wrap;
   justify-content: end;
 }
-/* .sliderLayoutContainer--carousel {
-  min-height: 200px;
-}
-@media (min-width: 1026px) {
+@media (max-width: 1025px) {
   .sliderLayoutContainer--carousel {
-    min-height: 300px;
+    max-width: var(--container-max-width);
+    padding: 0 5px;
   }
-} */
+}
 .imageElement--carousel {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
