@@ -1,7 +1,7 @@
 {
   "vendor": "bravtexeletrostore",
   "name": "bravtexeletrostore-theme",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "builders": {
     "react": "3.x",
     "styles": "2.x",
