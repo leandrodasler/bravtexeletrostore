@@ -5,8 +5,8 @@
   /* Estrutura de ResponsiveLayoutsHome*/
   "responsive-layout.desktop#home": {
     "children": [
-      // "flex-layout.row#banner-top",
-      "query-string-condition#banner-top",
+      "flex-layout.row#banner-top",
+      // "query-string-condition#banner-top",
       "flex-layout.row#banner-gift-list",
       "flex-layout.row#category-cards-title",
       "flex-layout.row#category-cards",
@@ -18,56 +18,56 @@
     ],
     "title": "Home - Desktop"
   },
-  "query-string-condition#banner-top": {
-    "title": "Conditional Top Banners",
-    "props": {
-      "parameter": "color",
-      "value": "1",
-      "Then": "flex-layout.row#banner-top-param-1",
-      "Else": "query-string-condition#banner-top-param-2"
-    }
-  },
-  "query-string-condition#banner-top-param-2": {
-    // "title": "Banners when color=2",
-    "props": {
-      "parameter": "color",
-      "value": "2",
-      "Then": "flex-layout.row#banner-top-param-2",
-      "Else": "query-string-condition#banner-top-param-3"
-    }
-  },
-  "query-string-condition#banner-top-param-3": {
-    // "title": "Banners when color = 3",
-    "props": {
-      "parameter": "color",
-      "value": "3",
-      "Then": "flex-layout.row#banner-top-param-3",
-      "Else": "flex-layout.row#banner-top"
-    }
-  },
-  "flex-layout.row#banner-top-param-1": {
-    "title": "Home - Carrossel Color 1",
-    "children": ["list-context.image-list#demo"],
-    "props": {
-      "marginTop": 8
-    }
-  },
-  "flex-layout.row#banner-top-param-2": {
-    "title": "Home - Carrossel Color 2",
-    "children": ["list-context.image-list#demo"],
-    "props": {
-      "marginTop": 8
-    }
-  },
-  "flex-layout.row#banner-top-param-3": {
-    "title": "Home - Carrossel Color 3",
-    "children": ["list-context.image-list#demo"],
-    "props": {
-      "marginTop": 8
-    }
-  },
+  // "query-string-condition#banner-top": {
+  //   "title": "Conditional Top Banners",
+  //   "props": {
+  //     "parameter": "color",
+  //     "value": "1",
+  //     "Then": "flex-layout.row#banner-top-param-1",
+  //     "Else": "query-string-condition#banner-top-param-2"
+  //   }
+  // },
+  // "query-string-condition#banner-top-param-2": {
+  //   // "title": "Banners when color=2",
+  //   "props": {
+  //     "parameter": "color",
+  //     "value": "2",
+  //     "Then": "flex-layout.row#banner-top-param-2",
+  //     "Else": "query-string-condition#banner-top-param-3"
+  //   }
+  // },
+  // "query-string-condition#banner-top-param-3": {
+  //   // "title": "Banners when color = 3",
+  //   "props": {
+  //     "parameter": "color",
+  //     "value": "3",
+  //     "Then": "flex-layout.row#banner-top-param-3",
+  //     "Else": "flex-layout.row#banner-top"
+  //   }
+  // },
+  // "flex-layout.row#banner-top-param-1": {
+  //   "title": "Home - Carrossel Color 1",
+  //   "children": ["list-context.image-list#demo"],
+  //   "props": {
+  //     "marginTop": 8
+  //   }
+  // },
+  // "flex-layout.row#banner-top-param-2": {
+  //   "title": "Home - Carrossel Color 2",
+  //   "children": ["list-context.image-list#demo"],
+  //   "props": {
+  //     "marginTop": 8
+  //   }
+  // },
+  // "flex-layout.row#banner-top-param-3": {
+  //   "title": "Home - Carrossel Color 3",
+  //   "children": ["list-context.image-list#demo"],
+  //   "props": {
+  //     "marginTop": 8
+  //   }
+  // },
   "flex-layout.row#banner-top": {
-    "title": "Home - Carrossel Default",
+    "title": "Home - Carrossel",
     "children": ["list-context.image-list#demo"],
     "props": {
       "marginTop": 8
